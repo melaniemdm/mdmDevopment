@@ -29,23 +29,17 @@ body {
   width: 230px;
   height: 325px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  background: linear-gradient(rgba(247, 191, 124), rgba(254, 213, 49));
   position: relative;
   perspective: 1000px;
   transform: perspective(1000px) translateY(0);
   transform-style: preserve-3d;
   transition: transform $animation-speed-fast ease-in-out;
   
-  &.dark{
-    background-color: $dark;
-    color: $light;
-      }
   
-  &.light{
-    background-color: $light;
-    color: $dark;
     .purchase-button{
       border: 1px solid rgba(247, 191, 124);
-    }
+    
   }
 }
 
@@ -71,7 +65,7 @@ body {
   }
 }
 .titleh2{
-    color: wi;
+    color: white;
     font-weight: bold;
     font-size:1.8vw;
    width:80%;
@@ -115,7 +109,7 @@ h2{
        margin-top: -20px;
 }
 .purchase-button-container{
-  color: rgba(247, 191, 124);
+  color: white;
   position: absolute;
   display: flex;
   justify-content: center;
@@ -136,17 +130,7 @@ h2{
     font-size: 1.2rem;
     transition: background-color .25s ease, color .25s ease;
     cursor: pointer;
-    
-    &.light:hover{
-      background-color: indianred;
-      color: $light;
-    }
-    
-    &.dark:hover{
-      background-color: indianred;
-      color: $dark;
-    }
-  }
+      }
 }
 
 .details-text{
@@ -156,14 +140,14 @@ h2{
   align-items: center;
   text-align: center;
   flex-direction: column;
-  color: #858585;
+  color: white;
   font-size: .75rem;
 }
 
 small{
   font-size: .75rem;
   font-weight: 100;
-  color: #858585;
+  color: white;
 }
 
 
