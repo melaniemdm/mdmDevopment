@@ -4,6 +4,7 @@ import './index.css';
 
 import Header from '../src/components/Header';
 import Banner from '../src/components/Banner';
+import Why from '../src/components/Why';
 
 import reportWebVitals from './reportWebVitals';
 
@@ -13,6 +14,7 @@ root.render(
 
 <Header/>
 <Banner/>
+<Why/>
   </React.StrictMode>
 );
 

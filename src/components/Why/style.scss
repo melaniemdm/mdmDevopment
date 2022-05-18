@@ -1,0 +1,74 @@
+.containerWhy {
+  color: white;
+  margin-top: 400px;
+  background: linear-gradient(rgba(254, 213, 49), rgba(247, 191, 124));
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.titleWhy {
+  font-size: 30px;
+  font-weight: bold;
+  margin-right:40px; 
+}
+
+.card {
+  position: relative;
+  width: 250px;
+  height: 350px;
+  margin: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12),
+    0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s linear;
+  border-radius: 30px;
+}
+/*style des images*/
+.voirImg, .baseImg, .rassureImg,.elargirImg,  .accessibleImg{
+    width: 250px;
+    height: 350px;
+  transition: all 0.2s linear;
+  object-fit: cover;
+}
+
+/*-------------------------------*/
+.card-content {
+  position: absolute;
+  bottom: 3rem;
+  right: 100%;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  transition: all 0.2s linear;
+}
+
+a {
+  text-decoration: none;
+}
+
+.card-category {
+  font-size: 22px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  margin: 15px;
+  color: #000;
+}
+
+i {
+  margin-left: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 0px 28px rgba(0, 0, 0, 0.25), 0 4px 10px rgba(0, 0, 0, 0.22);
+}
+
+.card:hover .card-content {
+  right: 0;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+}
