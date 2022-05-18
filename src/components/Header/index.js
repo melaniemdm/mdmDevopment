@@ -9,7 +9,7 @@ function Header(){
     <img  alt="logo mdm development" src={logoMe} className="logoHeader" />
 </div>
 
-<div class="container topBotomBordersOut">
+<div class="containerNav topBotomBordersOut">
   <a href=" " >HOME</a>
   <a href=" ">ARTICLES</a>
   <a href=" ">PORTFOLIO</a>
