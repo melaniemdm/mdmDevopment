@@ -4,6 +4,7 @@ specifiers:
   '@babel/core': '>=7.0.0-0 <8.0.0'
   '@babel/plugin-syntax-flow': ^7.14.5
   '@babel/plugin-transform-react-jsx': ^7.14.9
+  '@emailjs/browser': ^3.6.2
   '@testing-library/dom': '>=7.21.4'
   '@testing-library/jest-dom': ^5.16.4
   '@testing-library/react': ^13.2.0
@@ -22,6 +23,7 @@ dependencies:
   '@babel/core': 7.17.12
   '@babel/plugin-syntax-flow': 7.17.12_@babel+core@7.17.12
   '@babel/plugin-transform-react-jsx': 7.17.12_@babel+core@7.17.12
+  '@emailjs/browser': 3.6.2
   '@testing-library/dom': 8.13.0
   '@testing-library/jest-dom': 5.16.4
   '@testing-library/react': 13.2.0_react-dom@18.1.0+react@18.1.0
@@ -1519,6 +1521,11 @@ packages:
     dependencies:
       postcss: 8.4.13
       postcss-selector-parser: 6.0.10
+    dev: false
+
+  /@emailjs/browser/3.6.2:
+    resolution: {integrity: sha512-Swc8w+vwDX4XPy6tPegOFGSwHqNiEmEsIKbtAkqHo2WqnS0ORZUnnuZats2R3XqwfxNQD0F6RwnlVWHIMf6sCQ==}
+    engines: {node: '>=14.0.0'}
     dev: false
 
   /@eslint/eslintrc/1.2.3:
