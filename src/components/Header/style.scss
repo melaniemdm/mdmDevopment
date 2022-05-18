@@ -12,8 +12,7 @@ header {
   height: 280px;
   border-radius: 30px;
 }
-html,
-body {
+html{
   margin: 0px;
 }
 header span {
@@ -23,7 +22,7 @@ header span {
 div.containerNav a {
   color: white;
   text-decoration: none;
-  font: 20px Raleway;
+  font-size: 20px ;
   margin: 0px 10px;
   padding: 10px 10px;
   position: relative;

@@ -35,7 +35,7 @@ function Presations() {
             <div class="card light">
               <div class="text-overlay">
                 <h2 className="titleh2">
-                  Production de Maquettes
+                  Production de Maquettes 
                 </h2>
               </div>
 
@@ -65,7 +65,7 @@ function Presations() {
                  sur devis 
                 </div>
                 <div class="details-text">
-                  <span>Conseil, maquette, dévelopement</span>
+                  <span>Conseils, Maquettes, Dévelopement</span>
                   <span>Création de votre site vitrine</span>    
                 </div>
               </div>
