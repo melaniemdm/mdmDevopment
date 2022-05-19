@@ -16,6 +16,7 @@ root.render(
   <React.StrictMode>
 
 <Header/>
+<div>
 <Banner/>
 <Fade left>
 <Why/>
@@ -23,8 +24,8 @@ root.render(
 <Contact/>
 
 <Footer/>
-<ScrollToTop color="rgba(74, 71, 95)"/>
-</Fade>
+
+</Fade><ScrollToTop /></div>
   </React.StrictMode>
 );
 
