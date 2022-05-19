@@ -8,11 +8,11 @@ function Footer(){
     <img  alt="logo mdm development" src={logoMe} className="logoFooter" />
 </div>
 <div className="containerNavFooter"><div class="container teal borderYtoX">
-  <a href=" ">Home</a>
-  <a href=" ">Pourquoi un site vitrine?</a>
-  <a href=" ">Mes réalisations</a>
-  <a href=" ">Mes prestations</a>
-  <a href=" ">Me contacter</a>
+<a href="#accueil">Home</a>
+  <a href="#why">Pourquoi un site vitrine?</a>
+  <a href="https://melaniemdm.github.io/portfolio-melanie-mdm/">Mes réalisations</a>
+  <a href="#mesPrestations">Mes prestations</a>
+  <a href="#contactMe ">Me contacter</a>
 </div>
 
 

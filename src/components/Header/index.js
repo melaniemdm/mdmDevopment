@@ -4,13 +4,13 @@ import logoMe from '../../assets/logo2022.jpg';
 
 function Header(){
     return(
-        <header>
+        <header id="accueil">
 <div className="containerLogoHeader">
     <img  alt="logo mdm development" src={logoMe} className="logoHeader" />
 </div>
 
 <div class="containerNav topBotomBordersOut">
-<a href=" ">Home</a>
+<a href="#accueil">Home</a>
   <a href="#why">Pourquoi un site vitrine?</a>
   <a href="https://melaniemdm.github.io/portfolio-melanie-mdm/">Mes réalisations</a>
   <a href="#mesPrestations">Mes prestations</a>
