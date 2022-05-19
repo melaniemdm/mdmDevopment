@@ -74,6 +74,30 @@ function Presations() {
         </div>
       </div>
       
+      <div class="containerPrestaCard">
+        <div class="card-container">
+          <div class="card-wrapper">
+            <div class="card light">
+              <div class="text-overlay">
+                <h2 className="titleh2">
+                 Correction d'un site existant
+                </h2>
+              </div>
+              <div class="purchase-button-container">
+                <h2 className="titleh2Price"> Correction d'un site existant</h2>
+                <div class="price">
+                 sur devis 
+                </div>
+                <div class="details-text">
+                  <span>Conseils, Maquettes, Dévelopement</span>
+                  <span>Création - Correction</span>    
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   );
 }
