@@ -1,7 +1,7 @@
 import './style.scss';
 
 function Contact(){
-    return(<div className="containerContact">
+    return(<div className="containerContact" id="contactMe">
 
 <div class="containerForm">
   <h1>Formulaire de contact</h1>

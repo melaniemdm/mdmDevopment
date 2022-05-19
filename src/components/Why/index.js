@@ -6,7 +6,7 @@ import rassure from '../../assets/rassure.jpg';
 import accessible from '../../assets/accessible.jpg';
 
 function WhyWebsite(){
-    return(<div className="containerWhy">
+    return(<div className="containerWhy" id="why">
 <div className="titleWhy"> Pourquoi un site vitrine?</div>
 
 <div class="card">
