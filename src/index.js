@@ -21,8 +21,9 @@ root.render(
 <Why/>
 <Prestations/>
 <Contact/>
-<ScrollToTop color="rgba(74, 71, 95)"/>
+
 <Footer/>
+<ScrollToTop color="rgba(74, 71, 95)"/>
 </Fade>
   </React.StrictMode>
 );

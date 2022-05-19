@@ -10,11 +10,11 @@ function Header(){
 </div>
 
 <div class="containerNav topBotomBordersOut">
-  <a href=" " >HOME</a>
-  <a href=" ">ARTICLES</a>
-  <a href=" ">PORTFOLIO</a>
-  <a href=" ">ABOUT</a>
-  <a href=" ">CONTACT</a>
+<a href=" ">Home</a>
+  <a href=" ">Pourquoi un site vitrine?</a>
+  <a href=" ">Mes réalisations</a>
+  <a href=" ">Mes prestations</a>
+  <a href=" ">Me contacter</a>
 </div>
 
 
