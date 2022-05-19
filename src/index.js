@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-
+import ScrollToTop from "react-scroll-to-top";
+import Fade from 'react-reveal/Fade';
 import Header from '../src/components/Header';
 import Banner from '../src/components/Banner';
 import Why from '../src/components/Why';
 import Prestations from '../src/components/Prestations';
 import Contact from '../src/components/Contact';
-
+import Footer from '../src/components/Footer';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,9 +17,13 @@ root.render(
 
 <Header/>
 <Banner/>
+<Fade left>
 <Why/>
 <Prestations/>
 <Contact/>
+<ScrollToTop color="rgba(74, 71, 95)"/>
+<Footer/>
+</Fade>
   </React.StrictMode>
 );
 
