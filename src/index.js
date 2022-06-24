@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import '../src/style/style.scss';
 import ScrollToTop from "react-scroll-to-top";
 import Fade from 'react-reveal/Fade';
 import Header from '../src/components/Header';
