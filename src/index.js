@@ -19,12 +19,13 @@ root.render(
 <div>
 <Banner/>
 <Fade left>
+  <div className="containerHistory">
 <Why/>
 <Prestations/>
 <Contact/>
 
 <Footer/>
-
+</div>
 </Fade><ScrollToTop /></div>
   </React.StrictMode>
 );
