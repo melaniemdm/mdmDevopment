@@ -7,7 +7,7 @@ function Footer(){
 <div className="containerLogoFooter">
     <img  alt="logo mdm development" src={logoMe} className="logoFooter" />
 </div>
-<div className="containerNavFooter"><div class="container teal borderYtoX">
+<div className="containerNavFooter"><div className="container teal borderYtoX">
 <a href="#accueil">Home</a>
   <a href="#why">Pourquoi un site vitrine?</a>
   <a href="https://melaniemdm.github.io/portfolio-melanie-mdm/#/projets">Mes réalisations</a>

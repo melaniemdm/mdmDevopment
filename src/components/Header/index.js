@@ -9,7 +9,7 @@ function Header(){
     <img  alt="logo mdm development" src={logoMe} className="logoHeader" />
 </div>
 
-<div class="containerNav topBotomBordersOut">
+<div className="containerNav topBotomBordersOut">
 <a href="#accueil">Home</a>
   <a href="#why">Pourquoi un site vitrine?</a>
   <a href="https://melaniemdm.github.io/portfolio-melanie-mdm/#/projets">Mes réalisations</a>
