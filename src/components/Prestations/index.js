@@ -13,7 +13,7 @@ function Presations() {
                   Création de votre site vitrine "simple"
                 </h2>
               </div>
-              <div class="purchase-button-container">
+              <div class="purchase-button-container titleH2">
                 <h2 className="titleh2Price">Site vitrine simple</h2>
                 <div class="price">
                   250€ <small>/ day</small>
