@@ -37,7 +37,9 @@ width: 100%;
 
 @media #{$medium-down} {
     .bannerTxt{
-           padding: 50px;
+        margin-top:20px;
+     
+           outline:2px solid green;
 
     }
     .containerAccroche, .demandedevisTxt{
