@@ -1,3 +1,4 @@
+@import './responsive.scss';
 body {
   margin: 0;
   font-family: 'Montserrat',-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -22,4 +23,11 @@ code {
   position: absolute;
   width: 100%;
   top: 900px;
+}
+
+
+@media #{$small-down} {
+  .react-reveal{
+    opacity: 1 !important;
+    } 
 }
