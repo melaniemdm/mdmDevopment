@@ -1,5 +1,5 @@
 
-
+@import '../../style/communs.scss';
 footer{
 background: linear-gradient(rgba(0, 0, 0, 0) 0%,rgba(74, 71, 95) 100%);
 display: flex;
@@ -69,3 +69,15 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
     height: 2px;
     width: 100%;
 }
+
+@media #{$small-down} {
+    .container {
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+    }
+    .container a{
+        font-size: 8px;
+    }
+
+   }
