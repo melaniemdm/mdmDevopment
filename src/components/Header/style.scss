@@ -15,12 +15,7 @@ header {
   height: 280px;
   border-radius: 30px;
 }
-html{
-  margin: 0px;
-}
-header span {
-  color: white;
-}
+
 
 div.containerNav a {
   color: white;
@@ -62,7 +57,27 @@ div.topBotomBordersOut a:hover:after {
   transform: translateY(0px);
 }
 @media #{$medium-down} {
+
+
 .containerNav{
   display: flex;
   flex-direction: column;
 }}
+
+@media #{$small-down} {
+header {
+margin: 5px;
+}
+  div.containerNav a {
+font-size: 12px;
+font-weight: bold;
+margin: 0px;
+  }
+  .containerLogoHeader img {
+    object-fit: cover;
+    width: auto;
+    height: 130px;
+    border-radius: 30px;
+  }
+
+}
