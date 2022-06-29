@@ -1,11 +1,20 @@
-.bannerTxt{
-   display: flex;
-   flex-direction: column;
+@import '../../style/communs.scss';
+
+.bannerTxt{  
+    display: flex;
+  flex-direction: column;
    align-items: center;
    text-align: center;
-   justify-content: center;
-   margin: 10px;
+   justify-content: space-between;
+   //outline:10px solid blue;
+   padding: 50px;
 }
+.containerAccroche, .demandedevisTxt{
+      color: white;
+      font-style: italic;
+    text-align: center;
+}
+
 .containerBannerImg{
     width: 100%;
 }
@@ -17,16 +26,22 @@ width: 100%;
     opacity: 0.9;
 }
 
-.containerAccroche, .demandedevisTxt{
-      color: white;
-      font-style: italic;
-    text-align: center;
-}
+
 .containerAccroche{
     font-size:50px;
-       margin-top:100px;
+     
 }
 .demandedevisTxt{
     font-size:30px;
-    margin-top:50px;
 }
+
+@media #{$medium-down} {
+    .bannerTxt{
+        //outline:10px solid red;
+        padding: 50px;
+
+    }
+    .containerAccroche, .demandedevisTxt{
+      color: black;
+      font-size:30px;
+    }}
