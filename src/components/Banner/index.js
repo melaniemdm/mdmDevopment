@@ -1,5 +1,5 @@
 import './style.scss';
-import imgBanner from '../../assets/banner.jpg';
+import imgBanner from '../../assets/banner.webp';
 
 
 function Banner(){

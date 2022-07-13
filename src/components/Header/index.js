@@ -1,5 +1,5 @@
 import './style.scss';
-import logoMe from '../../assets/logo2022.jpg';
+import logoMe from '../../assets/logo2022.webp';
 
 
 function Header(){
