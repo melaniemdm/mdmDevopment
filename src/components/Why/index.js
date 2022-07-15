@@ -1,9 +1,9 @@
 import './style.scss';
-import voir from '../../assets/voir.webp';
-import base from '../../assets/base.webp';
-import elargir from '../../assets/elargir.webp';
-import rassure from '../../assets/rassure.webp';
-import accessible from '../../assets/accessible.webp';
+import voir from '../../assets/voir.png';
+import base from '../../assets/elargirBaseClient.png';
+import elargir from '../../assets/presentation.jpg';
+import rassure from '../../assets/prospect.png';
+import accessible from '../../assets/accessible.jpg';
 
 function WhyWebsite(){
     return(<div className="containerWhy" id="why">
