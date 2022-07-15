@@ -3,8 +3,7 @@ $dark: #272727;
 $light: #fbfbfb;
 
 $animation-speed-fast: .8s;
-$animation-speed-slow: 1s;
-
+$animation-speed-slow: 0.8s;
 
 
 .titlePresta{
@@ -65,8 +64,9 @@ $animation-speed-slow: 1s;
 .titleh2{
     color: white;
     font-weight: bold;
-    font-size:1.4vw;
+    font-size:22px;
    width:80%;
+  
 }
 .text-overlay{
   transform: perspective(1000px) translateY(0) translateZ(80px);

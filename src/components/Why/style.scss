@@ -1,81 +1,65 @@
- @import '../../style/communs.scss';
- .containerWhy {
-  color: white;
-  margin-top:-100px;
-  background: linear-gradient(rgba(254, 213, 49), rgba(247, 191, 124));
+@import "../../style/communs.scss";
+
+.cards-listWhy {
+  z-index: 0;
   width: 100%;
-  height: auto;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.cardWhy:hover {
+  transform: scale(0.9, 0.9);
+}
+
+@media all and (max-width: 500px) {
+  .card-listWhy {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}
+
+.cardWhy {
+  display: flex;
+  flex-direction: column;
+  margin: 60px auto;
+  width: 600px;
+  height: 380px;
+  border-radius: 40px;
+  display: flex;
+  background-position: center;
+  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  transition: 0.4s;
+}
+
+.whyImg {
+  height: 200px;
+  background: white;
+  object-fit: contain;
+  border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  &:hover {
+    box-shadow: 5px 5px 30px 7px white, -5px -5px 30px 7px white;
+  }
+}
+.containerWhy {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background: linear-gradient(rgba(254, 213, 49), rgba(247, 191, 124));
+  height: auto;
 }
 .titleWhy {
   font-size: 30px;
   font-weight: bold;
-  
+  margin-top: 20px;
 }
-
-.card {
-  position: relative;
-  width: 250px;
-  height: 350px;
-  margin: 10px;
-  overflow: hidden;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12),
-    0 3px 1px -2px rgba(0, 0, 0, 0.2);
-  transition: all 0.2s linear;
-  border-radius: 30px;
-  align-items: center;
+.titleWhyDetail {
+  font-size: 30px;
+  margin-bottom: 10px;
 }
-/*style des images*/
-.voirImg, .baseImg, .rassureImg,.elargirImg,  .accessibleImg{
-    width: 230px;
-    height: 350px;
-  transition: all 0.2s linear;
-  object-fit: scale-down;
-}
-
-/*-------------------------------*/
-.card-content {
-  position: absolute;
-  bottom: 3rem;
-  right: 100%;
-  width: 100%;
-  text-align: center;
-  background-color: rgba(255, 255, 255, 0.7);
-  transition: all 0.2s linear;
-}
-
-a {
-  text-decoration: none;
-}
-
-.card-category {
-  font-size: 22px;
-  line-height: 20px;
-  letter-spacing: 2px;
-  margin: 15px;
-  color: #000;
-}
-
-i {
-  margin-left: 5px;
-}
-
-.card:hover {
-  box-shadow: 0 0px 28px rgba(0, 0, 0, 0.25), 0 4px 10px rgba(0, 0, 0, 0.22);
-}
-
-.card:hover .card-content {
-  right: 0;
-}
-
-.card:hover img {
-  transform: scale(1.1);
-}
-@media #{$medium-down} {
-  .containerWhy {
-       margin-top:-450px;
-  }
+.detailWhyCard {
+  padding: 25px;
 }
