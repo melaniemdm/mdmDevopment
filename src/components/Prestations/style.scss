@@ -26,7 +26,6 @@ $animation-speed-slow: 0.8s;
   width: 230px;
   height: 325px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  background: linear-gradient(rgba(247, 191, 124), rgba(254, 213, 49));
   position: relative;
   perspective: 1000px;
   transform: perspective(1000px) translateY(0);
@@ -34,10 +33,11 @@ $animation-speed-slow: 0.8s;
   transition: transform $animation-speed-fast ease-in-out;
   
   
-    .purchase-button{
-      border: 1px solid rgba(247, 191, 124);
-    
-  }
+  .purchase-button{
+    border: 1px solid rgba(247, 191, 124);
+  
+}
+  
 }
 
 .card-container{
