@@ -1,6 +1,6 @@
 import "./style.scss";
 
-function Presations() {
+function Prestations() {
   return (
     <div className="containerPrestations" id="mesPrestations">
       <div className="titlePresta">Les prestations</div>
@@ -102,4 +102,4 @@ function Presations() {
   );
 }
 
-export default Presations;
+export default Prestations;

@@ -1,32 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import '../src/style/style.scss';
-import ScrollToTop from "react-scroll-to-top";
-import Fade from 'react-reveal/Fade';
-import Header from '../src/components/Header';
-import Banner from '../src/components/Banner';
-import Why from '../src/components/Why';
-import Prestations from '../src/components/Prestations';
-import Contact from '../src/components/Contact';
-import Footer from '../src/components/Footer';
+import Routes from '../src/Routes';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.Fragment>
-
-<Header/>
-<div>
-<Banner/>
-<Fade left>
-  <div className="containerHistory">
-<Why/>
-<Prestations/>
-<Contact/>
-
-<Footer/>
-</div>
-</Fade><ScrollToTop /></div>
+<Routes/>
   </React.Fragment>
 );
 

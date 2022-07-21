@@ -5,9 +5,9 @@ function WhyWebsite(){
     return(
       <div className="containerWhy" id="why">
          <div className="titleWhy"> Pourquoi un site vitrine?</div>
-      <div class="cards-listWhy">
+      <div className="cards-listWhy">
 
-  {why.map((item,index)=><div class="cardWhy" key={index} >  
+  {why.map((item,index)=><div className="cardWhy" key={index} >  
   <img src={item.pictureWhy} alt={item.nameWhy} className="whyImg"/>
   <div className="detailWhyCard">
 
