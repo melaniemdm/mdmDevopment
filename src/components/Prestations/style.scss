@@ -15,6 +15,7 @@ $animation-speed-slow: 0.8s;
    
   }
 .containerPrestations{
+  background:black;
     display: flex;
     justify-content:space-between;
     flex-wrap: wrap;
@@ -23,6 +24,7 @@ $animation-speed-slow: 0.8s;
     height:auto;
 }
 .card {
+
   width: 230px;
   height: 325px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
@@ -31,13 +33,7 @@ $animation-speed-slow: 0.8s;
   transform: perspective(1000px) translateY(0);
   transform-style: preserve-3d;
   transition: transform $animation-speed-fast ease-in-out;
-  
-  
-  .purchase-button{
-    border: 1px solid rgba(247, 191, 124);
-  
-}
-  
+    
 }
 
 .card-container{

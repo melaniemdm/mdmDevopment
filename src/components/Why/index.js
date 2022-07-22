@@ -2,27 +2,56 @@ import './style.scss';
 import { why} from '../../datas/why';
 
 function WhyWebsite(){
-    return(
-      <div className="containerWhy" id="why">
-         <div className="titleWhy"> Pourquoi un site vitrine?</div>
-      <div className="cards-listWhy">
+    return(<div>
+<div className="containerWhy" id="why">
+ <div className="title" > Pourquoi un site vitrine?</div>
+    <div class="containerWhyCard">
+    {why.map((item,index)=>  <div class="card" key={index} >
+            <div class="face face1">
+                <div class="content">
+                  
+                    <img src={item.pictureWhy} alt={item.nameWhy} className="whyImg"/>
+                    <h3>{item.titleWhy}</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>{item.detailWhy}</p>
+                       
+                </div>
 
-  {why.map((item,index)=><div className="cardWhy" key={index} >  
-  <img src={item.pictureWhy} alt={item.nameWhy} className="whyImg"/>
-  <div className="detailWhyCard">
+            </div>
+        </div>)
+}
+    </div>
 
-  <div className='titleWhyDetail'>{item.titleWhy}</div>
-  <div className='detailWhy'>{item.detailWhy}</div>
+
+</div>
+
+</div>
+
+
+
+//       <div className="containerWhy" id="why">
+//          <div className="titleWhy"> Pourquoi un site vitrine?</div>
+//       <div className="cards-listWhy">
+
+//   {why.map((item,index)=><div className="cardWhy" key={index} >  
+//   <img src={item.pictureWhy} alt={item.nameWhy} className="whyImg"/>
+//   <div className="detailWhyCard">
+
+//   <div className='titleWhyDetail'>{item.titleWhy}</div>
+//   <div className='detailWhy'>{item.detailWhy}</div>
  
   
-   </div>
-   </div>)
+//    </div>
+//    </div>)
 
-  }
+//   }
   
   
-</div>
-</div>
+// </div>
+// </div>
 
 
     

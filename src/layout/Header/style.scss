@@ -4,9 +4,8 @@ header {
   display: flex;
   text-align: center;
   align-items: center;
-  justify-content: space-between;
-  margin: 30px;
-
+   justify-content: space-between;
+  min-height: 10vh;
 }
 
 .containerLogoHeader img {
