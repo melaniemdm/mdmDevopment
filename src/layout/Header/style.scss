@@ -1,11 +1,13 @@
 @import '../../style/communs.scss';
 
 header {
+//  outline: 10px solid yellow;
   display: flex;
   text-align: center;
   align-items: center;
-   justify-content: space-between;
-  min-height: 10vh;
+  justify-content: space-around;
+ flex-wrap: wrap;
+ margin-top:30px;
 }
 
 .containerLogoHeader img {
@@ -15,40 +17,3 @@ header {
   border-radius: 30px;
 }
 
-
-div.containerNav a {
-  color: white;
-  text-decoration: none;
-  font-size: 20px ;
-  margin: 0px 10px;
-  padding: 10px 10px;
-  position: relative;
-  z-index: 0;
-  cursor: pointer;
-}
-
-@media #{$medium-down} {
-
-
-.containerNav{
-  display: flex;
-  flex-direction: column;
-}}
-
-@media #{$small-down} {
-header {
-margin: 5px;
-}
-  div.containerNav a {
-font-size: 12px;
-font-weight: bold;
-margin: 0px;
-  }
-  .containerLogoHeader img {
-    object-fit: cover;
-    width: auto;
-    height: 130px;
-    border-radius: 30px;
-  }
-
-}
