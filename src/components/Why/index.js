@@ -2,7 +2,7 @@ import './style.scss';
 import { why} from '../../datas/why';
 
 function WhyWebsite(){
-    return(<div>
+    return(<section>
 <div className="containerWhy" id="why">
  <div className="title" > Pourquoi un site vitrine?</div>
     <div class="containerWhyCard">
@@ -10,8 +10,7 @@ function WhyWebsite(){
             <div class="face face1">
                 <div class="content">
                   
-                    <img src={item.pictureWhy} alt={item.nameWhy} className="whyImg"/>
-                    <h3>{item.titleWhy}</h3>
+                                 <h3>{item.titleWhy}</h3>
                 </div>
             </div>
             <div class="face face2">
@@ -28,7 +27,7 @@ function WhyWebsite(){
 
 </div>
 
-</div>
+</section>
 
 
 

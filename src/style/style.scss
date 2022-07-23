@@ -24,10 +24,7 @@ code {
   width: 100%;
   top: 900px;
 }
-.title{
-  @include title;
-  margin-top:-350px;
-}
+
 
 @media #{$small-down} {
   .react-reveal{

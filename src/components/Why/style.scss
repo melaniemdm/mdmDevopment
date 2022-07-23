@@ -1,17 +1,18 @@
-#why{
-  min-height: 100vh;
-  background: black;
-}
+@import '../../style/communs.scss';
 
-.containerWhy{
- // outline: 1px solid red;
-  margin: 0;
-  padding: 0;
+#why{
+  height:auto;
+  background: black;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+  outline: 1px solid red;
+}
+
+.title{
+  color :white;
+  font-size:30px;
+  margin-left: 5px;
 }
 
 .containerWhyCard{
@@ -19,6 +20,8 @@
   position: relative;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .containerWhyCard .card{
@@ -29,11 +32,12 @@
 .containerWhyCard .card .face{
   width: 300px;
   height: 200px;
-  transition: 0.5s;
+  transition: 0.6s;
 }
 
 .containerWhyCard .card .face.face1{
   position: relative;
+  border-radius:$borderRadiusCardWhy;
   background: #6b95b2;
   display: flex;
   justify-content: center;
@@ -43,12 +47,13 @@
 }
 
 .containerWhyCard .card:hover .face.face1{
+  border-radius:0 0 5px 5px ;
   background: #ff0057;
   transform: translateY(0);
 }
 
 .containerWhyCard .card .face.face1 .content{
-  opacity: 0.2;
+  opacity: 0.6;
   transition: 0.5s;
 }
 
@@ -56,26 +61,23 @@
   opacity: 1;
 }
 
-.containerWhyCard .card .face.face1 .content img{
-  
-  max-width: 100px;
-}
-
 .containerWhyCard .card .face.face1 .content h3{
   margin: 10px 0 0;
   padding: 0;
+  border-radius:$borderRadiusCardWhy;
   color: #fff;
   text-align: center;
+  align-items: center;
   font-size: 1.5em;
 }
 
 .containerWhyCard .card .face.face2{
   position: relative;
   background: #fff;
+  border-radius:$borderRadiusCardWhy;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
   box-sizing: border-box;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
   transform: translateY(-100px);
