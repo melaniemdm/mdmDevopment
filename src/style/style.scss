@@ -33,7 +33,10 @@ code {
   margin-left: 5px;
   padding: 50px;
 }
-section{  padding-bottom:500px;}
+section{
+  height:800px;
+  box-shadow: 10px 5px 5px $colorTitle ;
+}
 
 @media #{$small-down} {
   .react-reveal{
