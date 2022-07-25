@@ -4,7 +4,7 @@ import {mesPrestations} from '../../datas/prestations';
 function Prestations() {
   return (<section>
     <div className="containerPrestations" id="mesPrestations">
-      <div className="title">Les prestations</div>
+      <div className="title">Les prestations proposées</div>
      
       <div className="card-container">
         {mesPrestations.map((item,index)=> 
