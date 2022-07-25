@@ -1,5 +1,5 @@
 import './style.scss';
-import logoMe from '../../assets/logo2022.webp';
+import logoMe from '../../assets/logo-site-footer.webp';
 function Footer(){
 
   return(
