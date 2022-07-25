@@ -6,7 +6,7 @@ function WhyWebsite(){
     <div className="containerWhy" id="why">
       <div className="title" > Pourquoi un site vitrine?</div>
       <div className="containerWhyCard">
-        {why.map((item,index)=>  <div className="card toto" key={index} >
+        {why.map((item,index)=>  <div className="card" key={index} >
           <div className="face face1">
             <div className="content">
                   

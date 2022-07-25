@@ -1,86 +1,81 @@
-@import '../../style/communs.scss';
+@import "../../style/communs.scss";
 $dark: #272727;
 $light: #fbfbfb;
 
-$animation-speed-fast: .8s;
+$animation-speed-fast: 0.8s;
 $animation-speed-slow: 0.8s;
->
-#mesPrestations{
+> #mesPrestations {
   align-items: center;
 }
-.containerPrestations{
-  //outline: 10px solid yellow; 
-  background:black;
-    display: flex;
-    justify-content:space-between;
-    flex-wrap: wrap;
-   align-items:center;
- flex-direction: column;
-  }
-.layoutCard{
+.containerPrestations {
+  //outline: 10px solid yellow;
   display: flex;
-  align-items:center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+}
+.layoutCard {
+  display: flex;
+  align-items: center;
   justify-content: center;
   flex-wrap: wrap;
 }
 
- .light{
+.light {
   border: 1px solid white;
- }
+}
 
-.titlePresta{
-    color: rgba(247, 191, 124);
-    font-size: 25px;
-    font-weight: bold;
-    margin-left: 128px;
-    margin-top: 20px;
-   
-  }
+.titlePresta {
+  color: rgba(247, 191, 124);
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 128px;
+  margin-top: 20px;
+}
 
 .card {
   width: 230px;
   height: 325px;
-  box-shadow: 0 3px 6px rgba(235, 4, 4, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   position: relative;
   perspective: 1000px;
   transform: perspective(1000px) translateY(0);
   transform-style: preserve-3d;
   transition: transform $animation-speed-fast ease-in-out;
-    
 }
 
-.card-container{
+.card-container {
   display: flex;
   margin: 20px;
 }
 
-.card-wrapper:hover{
-  .card{
+.card-wrapper:hover {
+  .card {
     transform: rotateY(179deg);
     z-index: 2;
-    
-    .text-overlay{
+
+    .text-overlay {
       opacity: 0;
       transform-style: preserve-3d;
       z-index: 1;
     }
-    
-    .purchase-button-container{
+
+    .purchase-button-container {
       border: 1px solid white;
       opacity: 1;
     }
   }
 }
-.titleh2{
-    color: white;
-    font-weight: bold;
-    font-size:18px;
-   width:50%;
-  
+.titleh2 {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  width: 50%;
 }
-.text-overlay{
+.text-overlay {
   transform: perspective(1000px) translateY(0) translateZ(80px);
-  transition: transform $animation-speed-fast ease-in-out, opacity $animation-speed-slow ease;
+  transition: transform $animation-speed-fast ease-in-out,
+    opacity $animation-speed-slow ease;
   pointer-events: none;
   width: 100%;
   perspective: inherit;
@@ -89,34 +84,32 @@ $animation-speed-slow: 0.8s;
   text-align: center;
   justify-content: center;
   align-items: center;
-  
 }
 
-h1{
+h1 {
   color: $dark;
-
 }
 
-h2{
-  font-size: .9rem;
+h2 {
+  font-size: 0.9rem;
   text-align: center;
   font-weight: 500;
 }
-.price, .titleh2Price{
-    text-align: center;
-    font-size: 1.6rem;
-    font-weight: 900;
-    
+.price,
+.titleh2Price {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 900;
 }
-.price{
-   font-size: 1.8rem;
-   margin: 10px;
+.price {
+  font-size: 1.8rem;
+  margin: 10px;
 }
-.titleh2Price{
-      font-size: 1.6rem;
-       margin-top: -20px;
+.titleh2Price {
+  font-size: 1.6rem;
+  margin-top: -20px;
 }
-.purchase-button-container{
+.purchase-button-container {
   color: white;
   position: absolute;
   display: flex;
@@ -128,20 +121,21 @@ h2{
   transform: perspective(1000px) rotateY(179deg) translateY(0) translateZ(80px);
   opacity: 0;
   z-index: -1;
-  transition: transform $animation-speed-fast ease-in-out, opacity $animation-speed-slow ease;
+  transition: transform $animation-speed-fast ease-in-out,
+    opacity $animation-speed-slow ease;
   width: 100%;
   height: 100%;
-  
-  .purchase-button{
+
+  .purchase-button {
     padding: 10px 40px;
     border-radius: 50px;
     font-size: 1.2rem;
-    transition: background-color .25s ease, color .25s ease;
+    transition: background-color 0.25s ease, color 0.25s ease;
     cursor: pointer;
-      }
+  }
 }
 
-.details-text{
+.details-text {
   margin-top: 20px;
   display: flex;
   gap: 10px 10px;
@@ -152,26 +146,22 @@ h2{
   font-size: 1rem;
 }
 
-small{
+small {
   font-size: 1rem;
   font-weight: 200;
   color: white;
 }
 
-
-
-.back-h2{
+.back-h2 {
   font-size: 2rem;
   margin-top: 0;
 }
 
 @media #{$medium-down} {
-
-  .titleh2{
+  .titleh2 {
     font-size: 20px;
-    }
-    .titlePresta{
-      margin-left: 0px;
-    }
-
- }
+  }
+  .titlePresta {
+    margin-left: 0px;
+  }
+}

@@ -1,9 +1,8 @@
 @import "../../style/communs.scss";
 
-.bannerTxt { 
- // border-top:1px solid $colorTitle;
-  border-bottom:1px solid $colorTitle;
-  box-shadow: 10px 5px 5px $colorTitle ;
+.bannerTxt {
+  border-bottom: 1px solid $colorTitle;
+  box-shadow: 10px 5px 5px $colorTitle;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,9 +20,9 @@
 }
 
 .containerAccroche {
-  font-size: 50px;
+  font-size: 40px;
+  margin-bottom: 30px;
 }
 .demandedevisTxt {
   font-size: 30px;
 }
-

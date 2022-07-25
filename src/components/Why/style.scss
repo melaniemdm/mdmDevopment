@@ -8,7 +8,10 @@
  height:600px;
 }
 
-
+.content{
+  text-align: center;
+ margin:10px;
+}
 
 .containerWhyCard{
   //outline: 1px solid blue;
@@ -33,7 +36,6 @@
 
 .containerWhyCard .card .face.face1{
   position: relative;
-  border-radius:$borderRadiusCardWhy;
   background: #6b95b2;
   display: flex;
   justify-content: center;
@@ -43,8 +45,7 @@
 }
 
 .containerWhyCard .card:hover .face.face1{
-  border-radius:0 0 5px 5px ;
-  background: #ff0057;
+   background:#83c8e3;
   transform: translateY(0);
 }
 
@@ -60,7 +61,6 @@
 .containerWhyCard .card .face.face1 .content h3{
   margin: 10px 0 0;
   padding: 0;
-  border-radius:$borderRadiusCardWhy;
   color: #fff;
   text-align: center;
   align-items: center;
@@ -70,7 +70,6 @@
 .containerWhyCard .card .face.face2{
   position: relative;
   background: #fff;
-  border-radius:$borderRadiusCardWhy;
   display: flex;
   justify-content: center;
   align-items: center;
