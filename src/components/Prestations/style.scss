@@ -1,22 +1,13 @@
 @import "../../style/communs.scss";
-$dark: #272727;
-$light: #fbfbfb;
-
-$animation-speed-fast: 0.8s;
-$animation-speed-slow: 0.8s;
 > #mesPrestations {
   align-items: center;
 }
 .containerPrestations {
-  //outline: 10px solid yellow;
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: center;
   flex-direction: column;
 }
 .light {
-  border: 1px solid white;
+  border: 1px solid $colorWhite;
 }
 
 .card {
@@ -30,7 +21,11 @@ $animation-speed-slow: 0.8s;
 }
 
 .card-container {
+  //width:100%;
+  align-items: center;
   display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
   margin: 20px;
 }
 
@@ -46,13 +41,13 @@ $animation-speed-slow: 0.8s;
     }
 
     .purchase-button-container {
-      border: 1px solid white;
+      border: 1px solid $colorWhite;
       opacity: 1;
     }
   }
 }
 .titleh2 {
-  color: white;
+  color: $colorWhite;
   font-weight: bold;
   font-size: 18px;
   width: 50%;
@@ -71,15 +66,6 @@ $animation-speed-slow: 0.8s;
   align-items: center;
 }
 
-h1 {
-  color: $dark;
-}
-
-h2 {
-  font-size: 0.9rem;
-  text-align: center;
-  font-weight: 500;
-}
 .price,
 .titleh2Price {
   text-align: center;
@@ -95,7 +81,7 @@ h2 {
   margin-top: -20px;
 }
 .purchase-button-container {
-  color: white;
+  color: $colorWhite;
   position: absolute;
   display: flex;
   justify-content: center;
@@ -127,26 +113,18 @@ h2 {
   align-items: center;
   text-align: center;
   flex-direction: column;
-  color: white;
+  color: $colorWhite;
   font-size: 1rem;
 }
 
 small {
   font-size: 1rem;
   font-weight: 200;
-  color: white;
-}
-
-.back-h2 {
-  font-size: 2rem;
-  margin-top: 0;
+  color: $colorWhite;
 }
 
 @media #{$medium-down} {
   .titleh2 {
     font-size: 20px;
-  }
-  .titlePresta {
-    margin-left: 0px;
   }
 }

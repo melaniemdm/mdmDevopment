@@ -65,6 +65,11 @@ div.borderYtoX a:hover:after {
 }
 
 @media #{$small-down} {
+
+  footer {
+    border-bottom: none;
+    box-shadow: none;
+  }
   .container {
     display: flex;
     flex-direction: column;

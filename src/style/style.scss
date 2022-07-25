@@ -1,41 +1,36 @@
-@import './responsive.scss';
-@import './mixin.scss';
-
+@import "./responsive.scss";
+@import "./mixin.scss";
+// *{
+//   outline: white 1px solid;
+// }
 body {
   background: black;
   margin: 0;
-  font-family: 'Montserrat',-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin: 0;
-  height: 100vh;
   padding: 0px;
 }
 
-.containerHistory{
-  position: absolute;
-  width: 100%;
-  top: 900px;
-}
-
-.title{
- // outline: 2px solid yellow;
-  color :white;
+.title {
+  color: white;
   font-weight: 900;
-  font-size:30px;
+  font-size: 30px;
   margin-left: 5px;
   padding: 50px;
 }
-section{
-  height:800px;
-  box-shadow: 10px 5px 5px $colorTitle ;
+section {
+  margin-top: 100px;
+  padding-bottom: 100px;
+  box-shadow: 10px 5px 5px $colorTitle;
 }
 
 @media #{$small-down} {
-  .react-reveal{
-    opacity: 1 !important;
-    } 
- 
+
+  section {
+    box-shadow:  none;
+    outline: 1px solid $colorTitle;
+  }
 }

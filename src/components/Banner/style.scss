@@ -27,3 +27,9 @@
 .demandedevisTxt {
   font-size: 30px;
 }
+@media #{$small-down} {
+  .bannerTxt {
+ // border-top: none;
+border-bottom: none;
+  box-shadow: none;
+}}
