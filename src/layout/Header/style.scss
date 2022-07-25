@@ -1,17 +1,18 @@
 @import '../../style/communs.scss';
-
+#accueil{
+ // outline: 10px solid yellow;
+  height:400px;
+}
 header {
-//  outline: 10px solid yellow;
   display: flex;
-  text-align: center;
-  align-items: center;
-  justify-content: space-around;
+  justify-content:space-around;
+  align-items:center;
  flex-wrap: wrap;
- margin-top:30px;
 }
 
 .containerLogoHeader img {
   object-fit: cover;
+  //outline: 10px solid yellow;
   width: 280px;
   height: 280px;
   border-radius: 30px;

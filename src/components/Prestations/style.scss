@@ -4,30 +4,44 @@ $light: #fbfbfb;
 
 $animation-speed-fast: .8s;
 $animation-speed-slow: 0.8s;
-
-
-.titlePresta{
-    color: rgba(247, 191, 124);
-    font-size: 30px;
-    font-weight: bold;
-    margin-left: 128px;
-    margin-top: 20px;
-   
-  }
+>
+#mesPrestations{
+  align-items: center;
+}
 .containerPrestations{
+  //outline: 10px solid yellow; 
+  height:auto;
   background:black;
     display: flex;
     justify-content:space-between;
     flex-wrap: wrap;
    align-items:center;
-  justify-content:center;
-    height:auto;
+ flex-direction: column;
+  }
+.layoutCard{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-.card {
 
+ .light{
+  border: 1px solid white;
+ }
+
+.titlePresta{
+    color: rgba(247, 191, 124);
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 128px;
+    margin-top: 20px;
+   
+  }
+
+.card {
   width: 230px;
   height: 325px;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 3px 6px rgba(235, 4, 4, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   position: relative;
   perspective: 1000px;
   transform: perspective(1000px) translateY(0);
@@ -53,6 +67,7 @@ $animation-speed-slow: 0.8s;
     }
     
     .purchase-button-container{
+      border: 1px solid white;
       opacity: 1;
     }
   }
@@ -60,8 +75,8 @@ $animation-speed-slow: 0.8s;
 .titleh2{
     color: white;
     font-weight: bold;
-    font-size:22px;
-   width:80%;
+    font-size:18px;
+   width:50%;
   
 }
 .text-overlay{
@@ -75,6 +90,7 @@ $animation-speed-slow: 0.8s;
   text-align: center;
   justify-content: center;
   align-items: center;
+  
 }
 
 h1{

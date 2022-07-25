@@ -25,6 +25,15 @@ code {
   top: 900px;
 }
 
+.title{
+ // outline: 2px solid yellow;
+  color :white;
+  font-weight: 900;
+  font-size:30px;
+  margin-left: 5px;
+  padding: 50px;
+}
+section{  padding-bottom:500px;}
 
 @media #{$small-down} {
   .react-reveal{

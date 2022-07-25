@@ -1,4 +1,4 @@
-import { HashLink as Link } from "react-router-hash-link";
+import { HashLink as Link } from 'react-router-hash-link';
 import './style.scss';
 
 function Navigate() {
