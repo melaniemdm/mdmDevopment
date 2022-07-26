@@ -2,14 +2,14 @@ export const listeDesProjets = [
   {
     id: 'Projet N°1',
     title: 'Reservia',
-    picture: 'https://res.cloudinary.com/dst61tkcz/image/upload/v1658825387/mdm-devlopment/reservia_uhinww.jpg',
+    picture: 'https://res.cloudinary.com/dst61tkcz/image/upload/v1658846527/mdm-devlopment/reservia2_ffykof.png',
     describe: 'Site de reservation d\'hôtels',
     lien: '/Projet_2_Reservia/Reservia.html',
   },
   {
     id: 'Projet N°2',
     title: 'OhMyFood',
-    picture: 'https://res.cloudinary.com/dst61tkcz/image/upload/v1658825382/mdm-devlopment/ohmyfood_nixqii.png',
+    picture: 'https://res.cloudinary.com/dst61tkcz/image/upload/v1658847189/mdm-devlopment/omf2_wmx8lz.png',
     describe:
       'Site pour mobile qui repertorie les menus de plusieurs retaurants gastronomiques',
     lien: 'https://melaniemdm.github.io/Projet_3_ohmyfood/',
@@ -17,7 +17,7 @@ export const listeDesProjets = [
   {
     id: 'Projet N°3',
     title: 'GameOn',
-    picture: 'https://res.cloudinary.com/dst61tkcz/image/upload/v1658825405/mdm-devlopment/gameOn_fegjje.png',
+    picture: 'https://res.cloudinary.com/dst61tkcz/image/upload/v1658847191/mdm-devlopment/gameOn2_kaoe5h.png',
     describe:
       'Ajoute de code JavaScript manquant pour que le formulaire du site soit pleinement fonctionnel',
     lien: 'https://melaniemdm.github.io/GameOn-website-FR/starterOnly/',
@@ -25,7 +25,7 @@ export const listeDesProjets = [
   {
     id: 'Projet N°4',
     title: 'fishEye',
-    picture: 'https://res.cloudinary.com/dst61tkcz/image/upload/v1658825402/mdm-devlopment/fisheye_wo2kuw.png',
+    picture: 'https://res.cloudinary.com/dst61tkcz/image/upload/v1658847190/mdm-devlopment/fisheye2_dezfne.png',
     describe:
       'Construction d\'un prototype fonctionnel d\'un nouveau site web pour les photographes.',
     lien: 'https://melaniemdm.github.io/fisheye/',
@@ -33,7 +33,7 @@ export const listeDesProjets = [
   {
     id: 'Projet N°5',
     title: 'Cab&Co',
-    picture: 'https://res.cloudinary.com/dst61tkcz/image/upload/v1658825400/mdm-devlopment/cab_jmgnap.png',
+    picture: 'https://res.cloudinary.com/dst61tkcz/image/upload/v1658847190/mdm-devlopment/cab2_yeyhjl.png',
     describe:
       'Construction d\'un prototype  d\'un nouveau site web pour des experts comptables. ',
     lien: 'https://melaniemdm.github.io/Cab_And_co/',
@@ -41,7 +41,7 @@ export const listeDesProjets = [
   {
     id: 'Projet N°6',
     title: 'animalsLove',
-    picture: 'https://res.cloudinary.com/dst61tkcz/image/upload/v1658825393/mdm-devlopment/animalsLove_m7t6s2.png',
+    picture: 'https://res.cloudinary.com/dst61tkcz/image/upload/v1658847280/mdm-devlopment/animalsLove2_cplye1.png',
     describe:[
       'Construction d\'un prototype d\'un nouveau site web dédié a l\'adoption d\'animaux', <br key="1" />,
       'Création de diverses affiches pour des evenements '], 
@@ -50,7 +50,7 @@ export const listeDesProjets = [
   {
     id: 'Projet N°7',
     title: 'Les petits Plats',
-    picture: 'https://res.cloudinary.com/dst61tkcz/image/upload/v1658825384/mdm-devlopment/petitsPlats_bduvii.png',
+    picture: 'https://res.cloudinary.com/dst61tkcz/image/upload/v1658847190/mdm-devlopment/petitsPLats2_xsu7fy.png',
     describe:
       'Implémentation de fonctionnalités de recherche pour un site de recettes de cuisine',
     lien: 'https://melaniemdm.github.io/les_Petits_Plats/',
@@ -58,7 +58,7 @@ export const listeDesProjets = [
   {
     id: 'Projet N°8',
     title: 'PSM94',
-    picture: 'https://res.cloudinary.com/dst61tkcz/image/upload/v1658825387/mdm-devlopment/psm94_hfftal.png',
+    picture: 'https://res.cloudinary.com/dst61tkcz/image/upload/v1658847190/mdm-devlopment/psm942_cciiiv.png',
     describe:[
       ' Prototype d\'un site de psychologie à Saint-Maur', <br key="1" />,
       'Utilisation des fonctionnalités gratuites Wordpress 5 pour la conception du prototype du site d\'un professionnel de santé '], 
@@ -67,7 +67,7 @@ export const listeDesProjets = [
   {
     id: 'Projet N°9',
     title: 'jsMarketing',
-    picture: 'https://res.cloudinary.com/dst61tkcz/image/upload/v1658825367/mdm-devlopment/jsmarketing_smlyk6.png',
+    picture: 'https://res.cloudinary.com/dst61tkcz/image/upload/v1658847191/mdm-devlopment/jsMarketing2_bgic7x.png',
     describe:[
       '  Amélioration d\'un site marketing pour un auto-entrepreneur ', <br key="1" />,
       'Respect du cahier des charges et adaptation d\'un thème WordPress aux spécificités souhaitées par le client.',<br key="2" />,
@@ -77,7 +77,7 @@ export const listeDesProjets = [
   {
     id: 'Projet N°10',
     title: 'testOn',
-    picture: 'https://res.cloudinary.com/dst61tkcz/image/upload/v1658825389/mdm-devlopment/testOn_mu6xzj.jpg',
+    picture: 'https://res.cloudinary.com/dst61tkcz/image/upload/v1658847190/mdm-devlopment/testOn2_bv0enm.png',
     describe:[
       '   Maquette d\'un site de vente avec modal et prix évolutif  ', <br key="1" />,
       'Respect du cahier des charges et de la maquette.'], 
@@ -87,30 +87,30 @@ export const listeDesProjets = [
   {
     id: 'Projet N°11',
     title: 'vendTout',
-    picture: 'https://res.cloudinary.com/dst61tkcz/image/upload/v1658825391/mdm-devlopment/vendTout_wrk9ie.jpg',
+    picture: 'https://res.cloudinary.com/dst61tkcz/image/upload/v1658847190/mdm-devlopment/vendtout2_nxatpb.png',
     describe:'Maquette d\'un site de vente en ligne ', 
     lien: 'https://melaniemdm.github.io/vendTout/',
   },
   {
     id: 'Projet N°12',
     title: 'Billed',
-    picture: 'https://res.cloudinary.com/dst61tkcz/image/upload/v1658825397/mdm-devlopment/billed_pfrrdy.jpg',
+    picture: 'https://res.cloudinary.com/dst61tkcz/image/upload/v1658847190/mdm-devlopment/billed2_viceii.png',
     describe:' Ajout de tests unitaires et d\'integration', 
     lien: ' ',
   },
   {
     id: 'Projet N°13',
     title: 'Learn@Home',
-    picture: 'https://res.cloudinary.com/dst61tkcz/image/upload/v1658825375/mdm-devlopment/learn_nx6vjn.png',
+    picture: 'https://res.cloudinary.com/dst61tkcz/image/upload/v1658847189/mdm-devlopment/learn2_dyz0kd.png',
     describe:[
       ' Création d\'une maquette pour un site de soutien scolaire', <br key="1" />,
       'Utilisation de Notion et de Figma '], 
-    lien: ' ',
+    lien: 'https://www.figma.com/file/aB2H1x8555crFs2qOJUHSS/Learn%40Home',
   },
   {
     id: 'Projet N°14',
     title: 'Kasa',
-    picture: 'https://res.cloudinary.com/dst61tkcz/image/upload/v1658825371/mdm-devlopment/kasa_yh6hib.jpg',
+    picture: 'https://res.cloudinary.com/dst61tkcz/image/upload/v1658847191/mdm-devlopment/kasa2_zl1cyk.png',
     describe:[
       ' Création d\'un site de reservation de logement', <br key="1" />,
       'Utilisation de React'], 
@@ -119,35 +119,35 @@ export const listeDesProjets = [
   {
     id: 'Projet N°15',
     title: ' Association Saint Maurienne des Amis des animaux',
-    picture: 'https://res.cloudinary.com/dst61tkcz/image/upload/v1658825395/mdm-devlopment/asmaaCard_mle91h.png',
+    picture: 'https://res.cloudinary.com/dst61tkcz/image/upload/v1658847190/mdm-devlopment/asmaa2_wwiomx.png',
     describe:'Création de cards pour l\'adoption des chats d\'un refuge',
     lien: 'https://melaniemdm.github.io/adopt-un-chat/',
   },
   {
     id: 'Projet N°16',
     title: ' LCT CREATIONS',
-    picture: 'https://res.cloudinary.com/dst61tkcz/image/upload/v1658825374/mdm-devlopment/lct_kdjz0e.png',
+    picture: 'https://res.cloudinary.com/dst61tkcz/image/upload/v1658847191/mdm-devlopment/lct2_ywrusw.png',
     describe:'Prototype de site avec diverses animations (carouselle, affichage au schroll...)',
     lien: 'https://melaniemdm.github.io/lct-creations/',
   },
   {
     id: 'Projet N°17',
     title: ' MDM DEVELOPMENT',
-    picture: 'https://res.cloudinary.com/dst61tkcz/image/upload/v1658826239/mdm-devlopment/logo-site-footer_yb8wpl.webp',
+    picture: 'https://res.cloudinary.com/dst61tkcz/image/upload/v1658847189/mdm-devlopment/mdm2_a3mzgx.png',
     describe:'Réalisation d\'un site en javaScript React pour un dev front-end',
     lien: 'https://melaniemdm.github.io/mdm_development/',
   },
   {
     id: 'Projet N°18',
     title: ' Intelligence Canine',
-    picture: 'https://res.cloudinary.com/dst61tkcz/image/upload/v1658825365/mdm-devlopment/intelligence_lkd5ph.png',
+    picture: 'https://res.cloudinary.com/dst61tkcz/image/upload/v1658847191/mdm-devlopment/intCanine2_xnp1v2.png',
     describe:'Réalisation d\'un site en javaScript React',
     lien: 'https://melaniemdm.github.io/intelligence_canine/',
   },
   {
     id: 'Projet N°19',
     title: 'Fondation Jacques Secrétin',
-    picture: 'https://res.cloudinary.com/dst61tkcz/image/upload/v1658825404/mdm-devlopment/fjs_huy0um.png',
+    picture: 'https://res.cloudinary.com/dst61tkcz/image/upload/v1658847191/mdm-devlopment/fondJS2_zqvhty.png',
     describe:'Prototype de site internet pour la Fondation Jacques Secrétin ',
     lien: ' https://melaniemdm.github.io/fondation-jacques-secretin/',
   },

@@ -9,7 +9,7 @@
  
    .cardRealisation {
     position: relative;
-    max-width: 18.75rem;
+   width: 400px;
     margin: 0 auto;
     background-color: #fff;
     border-radius: 2rem;
@@ -26,8 +26,8 @@
   }
   .imgProjet {
     display: block;
-    width: 100%;
-    height: auto;
+   width: 100%;
+   height: auto;
     transition: transform 0.4s ease;
   }
   .cardRealisation:hover img {
@@ -35,7 +35,8 @@
   }
   .cardRealisation-thumb {
     position: relative;
-    height: 200px;
+    overflow: hidden;
+   height: 200px;
     transition: height 0.4s ease;
   }
   .cardRealisation-thumb a {
@@ -53,8 +54,8 @@
     position: absolute;
     top: 0;
     width: 100%;
-    height: 100%;
-    background-color: #000;
+    background-color: #000; 
+    height: 100%;   
     opacity: 0;
     transition: opacity 0.4s ease;
   }
