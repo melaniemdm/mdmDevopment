@@ -1,4 +1,11 @@
-
+.containerRealisations{
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  gap: 80px;
+  margin-left: 30px;
+  margin-right:30px ;
+}
  
    .cardRealisation {
     position: relative;

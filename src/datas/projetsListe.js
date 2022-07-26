@@ -110,7 +110,7 @@ export const listeDesProjets = [
   {
     id: 'Projet N°14',
     title: 'Kasa',
-    picture: '/portfolio-melanie-mdm/pictures-projet/kasa.jpg',
+    picture: 'https://res.cloudinary.com/dst61tkcz/image/upload/v1658825371/mdm-devlopment/kasa_yh6hib.jpg',
     describe:[
       ' Création d\'un site de reservation de logement', <br key="1" />,
       'Utilisation de React'], 
@@ -119,7 +119,7 @@ export const listeDesProjets = [
   {
     id: 'Projet N°15',
     title: ' Association Saint Maurienne des Amis des animaux',
-    picture: 'https://res.cloudinary.com/dst61tkcz/image/upload/v1658825371/mdm-devlopment/kasa_yh6hib.jpg',
+    picture: 'https://res.cloudinary.com/dst61tkcz/image/upload/v1658825395/mdm-devlopment/asmaaCard_mle91h.png',
     describe:'Création de cards pour l\'adoption des chats d\'un refuge',
     lien: 'https://melaniemdm.github.io/adopt-un-chat/',
   },
