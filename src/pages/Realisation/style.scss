@@ -1,0 +1,72 @@
+
+ 
+   .cardRealisation {
+    position: relative;
+    max-width: 18.75rem;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 2rem;
+    overflow: hidden;
+  }
+  .cardRealisation-body
+  {
+    padding: 1.5em;
+    padding-bottom: 0;
+  }
+  .imgProjet {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.4s ease;
+  }
+  .cardRealisation:hover img {
+    transform: scale(1.2);
+  }
+  .cardRealisation-thumb {
+    position: relative;
+    height: 200px;
+    transition: height 0.4s ease;
+  }
+  .cardRealisation-thumb a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+  .cardRealisation:hover .card-thumb {
+    height: calc(200px - 4.5rem);
+  }
+  .cardRealisation-thumb::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+  }
+  .cardRealisation:hover .cardRealisation-thumb::after {
+    opacity: 0.4;
+  }
+ 
+  .cardRealisation:hover .cardRealisation-category {
+    right: 45%;
+  }
+ 
+  .cardRealisation-description {
+    display: block;
+    height: 0;
+    padding: 0 0.5em;
+    font-size: 0.875rem;
+    /* color: rgb(96, 91, 91); */
+    color: #666c74;
+    opacity: 0;
+    transition: height 0.4s ease, opacity 0.2s ease;
+  }
+  .cardRealisation-description {
+    height: 4.5rem;
+    opacity: 1;
+  }
+ 

@@ -1,5 +1,5 @@
 import './style.scss';
-import logoMe from '../../assets/logo-site-header.webp';
+
 import Navigate from '../../components/Navigate';
 
 function Header() {
@@ -7,7 +7,7 @@ function Header() {
     <header id="accueil">
      
       <div className="containerLogoHeader">
-        <img alt="logo mdm development" src={logoMe} className="logoHeader" />
+        <img alt="logo mdm development" src='https://res.cloudinary.com/dst61tkcz/image/upload/v1658826239/mdm-devlopment/logo-site-header_ipmiqs.webp' className="logoHeader" />
       </div>
       <div className="containerTxt">
         <Navigate />

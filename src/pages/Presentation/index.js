@@ -15,7 +15,26 @@ function presentation(){
           </nav>
         </div>
       </div>
+      <div className="descriptif">
+        <h2 className="sousTitle"> Création de votre site en quelques étapes</h2>
 
+        <ul>
+          <li>_ Echanges sur vos besoins, attentes, envies,</li>
+          <li>_ Achat de votre nom de domaine si necessaire,</li>
+          <li>_ Choix de l'hebergeur en fonction de vos besoins,</li>
+          <li>_ Création de la maquette de votre futur site ou du premier prototype,</li>
+          <li>_ Points réguliers sur l'avancement du projet,</li>
+          <li>_ Une fois la structure de votre site réalisée, intégration de vos textes et de vos photos,</li>
+          <li>_ Mise en ligne de votre nouveau site internet.</li>
+        </ul>
+        <h2 className="sousTitle"> Informations supplémentaires</h2>
+        <div> Vous disposerez d'un accompagnement privilégié tout au long de votre projet. </div>
+        <div> Une fois le projet terminé, je reste à l'écoute de vos besoins.</div>
+        <div> Vous n'avez aucune gestion de la structure de site à reéaliser</div>
+        <div> Je réponds dans les plus bref délais à vos questions en fonction de la compléxitée posée. </div>
+        <div> Le referencement SEO Google est biensur intégré dans la réalisation de votre site. </div>
+        <div> Votre site comme vous l'avez imaginé! </div>
+      </div>
       {/* <div className="project-wrapper">
         <img src="https://uxfol.io/template-previews/theme-pictures/theme_02-project-thumbnail-01.png" alt="" className="project-thumbnail"/>
         <div className="project-name">

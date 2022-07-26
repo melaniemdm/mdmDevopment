@@ -10,9 +10,8 @@ function Navigate() {
         <Link to="/presentationMe">Présentation</Link>
         {/* <Link to="/presentationMe#ref">Mes Réferences</Link> */}
        
-        <a href="https://melaniemdm.github.io/portfolio-melanie-mdm/#/projets">
-          Mes réalisations
-        </a>
+      
+        <Link to="/realisation">Mes réalisations</Link>
         <Link to="/accueil#mesPrestations">Mes prestations</Link>
         <Link to="/accueil#contactMe">Me contacter</Link>
       </div>
