@@ -4,7 +4,7 @@ function presentation(){
   return ( <div className="containerPresentation">
     <div className="portfolio-container">
       <div className="hero">
-        <img src="https://images.unsplash.com/photo-1614436201459-156d322d38c6?ixlib=rb-1.2.1ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Z2lybCUyMHNtaWxpbmd8ZW58MHx8MHx8&auto=format&fit=cropw=900q=60" alt="a girl smiling" className="hero--image"/>
+        <img src="https://res.cloudinary.com/dst61tkcz/image/upload/v1658828763/mdm-devlopment/me_lytehv.webp" alt="a girl smiling" className="hero--image"/>
         <div className="hero--bio">
           <h1 className="nameDev">Mélanie MARIANI</h1>
           <h3>Developpeur java-script React - FrontEnd</h3>
@@ -27,13 +27,34 @@ function presentation(){
           <li>_ Une fois la structure de votre site réalisée, intégration de vos textes et de vos photos,</li>
           <li>_ Mise en ligne de votre nouveau site internet.</li>
         </ul>
+
         <h2 className="sousTitle"> Informations supplémentaires</h2>
         <div> Vous disposerez d'un accompagnement privilégié tout au long de votre projet. </div>
-        <div> Une fois le projet terminé, je reste à l'écoute de vos besoins.</div>
+        <div> Une fois le projet terminé, je reste à votre écoute pour tout compléments d'Informations.</div>
         <div> Vous n'avez aucune gestion de la structure de site à reéaliser</div>
         <div> Je réponds dans les plus bref délais à vos questions en fonction de la compléxitée posée. </div>
         <div> Le referencement SEO Google est biensur intégré dans la réalisation de votre site. </div>
         <div> Votre site comme vous l'avez imaginé! </div>
+
+        <h2 className="sousTitle"> Pourquoi un site vitrine?</h2>
+        <div> 
+          <h4>Les principaux avantages de la création d'un site vitrine sont:</h4>
+          <ul>
+            <li>_ L'augmentationtion de la visibilité de votre enseigne,</li>
+            <li>_ Promouvoir et vous demarquer des concurrents,</li> 
+            <li>_ Elargir votre clientèle et atteindre nouveaux prospects sans aucune limite géographine.</li>
+          </ul>
+        </div>
+
+        <h2 className="sousTitle">Un site vitrine c'est quoi?</h2>
+
+        <div>Un site vitrine est un site Web qui présente en ligne les produits ou les services d'une organisation, dans le but d'attirer simplement l'attention et d'éveiller l'intérêt des internautes de passage, le plus souvent sans permettre d'acheter directement le produit ou le service proposé.</div>
+        <a href="https://fr.wikipedia.org/wiki/Site_vitrine#:~:text=Un%20site%20vitrine%20est%20un,produit%20ou%20le%20service%20propos%C3%A9."><div>Lien Wikipédia</div></a>
+
+
+
+
+
       </div>
       {/* <div className="project-wrapper">
         <img src="https://uxfol.io/template-previews/theme-pictures/theme_02-project-thumbnail-01.png" alt="" className="project-thumbnail"/>
