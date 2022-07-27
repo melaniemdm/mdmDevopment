@@ -42,7 +42,7 @@ function presentation(){
           <ul>
             <li>_ L'augmentationtion de la visibilité de votre enseigne,</li>
             <li>_ Promouvoir et vous demarquer des concurrents,</li> 
-            <li>_ Elargir votre clientèle et atteindre nouveaux prospects sans aucune limite géographine.</li>
+            <li>_ Elargir votre clientèle et atteindre de nouveaux prospects sans aucune limite géographique</li>
           </ul>
         </div>
 
