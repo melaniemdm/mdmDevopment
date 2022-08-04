@@ -4,24 +4,26 @@ Create from scratch of a showcase site in order to develop the services of a fro
 
 ## Technologies
 
-- JS
-- CSS
-- React
+- [![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com)
+- ![CSS](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)
+- ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 - React-scroll
 - Tally pour le questionnaire
 - React-reveal
 
-## deployment
+## Deployment
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4e802e78-156f-4402-b8a3-cf4f63ecadcd/deploy-status)](https://app.netlify.com/sites/mdm-development/deploys)
 
 ## Prerequisites
 
-- Node v17.9.0 or higher
-
+- ![node js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white) v17.9.0 or higher
+  
 ## Contribute to the project
 
-MDM DEVELOPMENT  est un projet open source.
+[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+
+MDM DEVELOPMENT  is an open source project.
 
 ## Getting started
 
@@ -93,10 +95,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
@@ -106,6 +104,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 Melanie MARIANI – MDM DEVLOPMENT
 
 ## License
+
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
 The MIT License (MIT)
 
