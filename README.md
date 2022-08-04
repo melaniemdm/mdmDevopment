@@ -11,6 +11,10 @@ Create from scratch of a showcase site in order to develop the services of a fro
 - Tally pour le questionnaire
 - React-reveal
 
+## deployment
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4e802e78-156f-4402-b8a3-cf4f63ecadcd/deploy-status)](https://app.netlify.com/sites/mdm-development/deploys)
+
 ## Prerequisites
 
 - Node v17.9.0 or higher
