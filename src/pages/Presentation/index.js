@@ -7,8 +7,8 @@ function presentation(){
         <img src="https://res.cloudinary.com/dst61tkcz/image/upload/v1658828763/mdm-devlopment/me_lytehv.webp" alt="a girl smiling" className="hero--image"/>
         <div className="hero--bio">
           <h1 className="nameDev">Mélanie MARIANI</h1>
-          <h3>Developpeur java-script React - FrontEnd</h3>
-          <p className="basic-info">Je suis développeur front end en javaScript-React et je suis passionnée par la création et la modification de sites vitrines. J'ai l'avantage via la freelance de pouvoir travailler dans toute la France afin de réaliser vos projets de sites vitrines.</p>
+          <h3>Developpeur java-script React - Front-End</h3>
+          <p className="basic-info">Je suis développeur Front-End en JavaScript-React et je suis passionnée par la création et la modification de sites vitrines. J'ai l'avantage via la freelance de pouvoir travailler dans toute la France afin de réaliser vos projets de sites vitrines.</p>
           <nav>
             <Link to="/accueil#contactMe" className="contactMe">Me contacter</Link>
 
@@ -20,7 +20,7 @@ function presentation(){
 
         <ul>
           <li>_ Echanges sur vos besoins, attentes, envies,</li>
-          <li>_ Choisir votre nom de domaine,</li>
+          <li>_ Choix de votre nom de domaine,</li>
           <li>_ Vérification si votre nom de domaine existe ou non puis achat de celui-ci,</li>
           <li>_ Choix de l'hebergeur en fonction de vos besoins (gratuit ou payant),</li>
           <li>_ Création de la maquette de votre futur site ou du premier prototype,</li>
@@ -34,14 +34,14 @@ function presentation(){
         <div> Une fois le projet terminé, je reste à votre écoute pour tout compléments d'Informations.</div>
         <div> Vous n'avez aucune gestion de la structure de site à réaliser</div>
         <div> Je réponds dans les plus bref délais à vos questions. </div>
-        <div> Le referencement SEO Google est biensur intégré dans la réalisation de votre site. </div>
+        <div> Le referencement SEO Google est bien-sûr intégré dans la réalisation de votre site. </div>
         <div> Votre site comme vous l'avez imaginé! </div>
 
         <h2 className="sousTitle"> Pourquoi un site vitrine?</h2>
         <div> 
           <h4>Les principaux avantages de la création d'un site vitrine sont:</h4>
           <ul>
-            <li>_ L'augmentationtion de la visibilité de votre enseigne,</li>
+            <li>_ Augmenter la visibilité de votre enseigne,</li>
             <li>_ Promouvoir et vous demarquer des concurrents,</li> 
             <li>_ Elargir votre clientèle et atteindre de nouveaux prospects sans aucune limite géographique</li>
           </ul>
@@ -53,13 +53,13 @@ function presentation(){
         <a href="https://fr.wikipedia.org/wiki/Site_vitrine#:~:text=Un%20site%20vitrine%20est%20un,produit%20ou%20le%20service%20propos%C3%A9."><div>Lien Wikipédia</div></a>
 
         <h2 className="sousTitle">Votre site vitrine codé de A à Z</h2>
-        <div> Vous avez une idée bien précise de votre futur site vitrine et les systèmes de gestion de contenu ne rtepondent pas a vos attentes, passez par un site codé de A à Z en java-Script! </div>
+        <div> Vous avez une idée bien précise de votre futur site vitrine et les systèmes de gestion de contenu ne répondent pas à vos attentes, passez par un site codé de A à Z en JavaScript! </div>
 
         <h2 className="sousTitle">Votre site vitrine réalisé avec CMS</h2>
-        <div> CMS ou Système de gestion de contenu est un systeme de gestion qui permet la création de site internet ou blog. C'est une très bonne alternative dans la construction de site vitrine. Parmis un des plus connu on retrouve Wordpress. Vous pouvez y choisir vos thème, vos modeles... </div>
+        <div> CMS ou Système de gestion de contenu est un systeme de gestion qui permet la création de site internet ou blog. C'est une très bonne alternative dans la construction de site vitrine. Parmis les plus connus on retrouve Wordpress. Vous pouvez y choisir vos thème, vos modèles... </div>
 
         <h2 className="sousTitle">Conclusion</h2>
-        <div>Quelques soient la méthode que vous choississez, CMS ou un site codé complètement a de A à Z, je me tiens à votre disposition pour réaliser votre projet de site vitrine au plus proche de ce que vous avez imaginé.</div>
+        <div>Quelque soit la méthode que vous choississez, CMS ou un site codé complètement de A à Z, je me tiens à votre disposition pour réaliser votre projet de site vitrine au plus proche de ce que vous avez imaginé.</div>
 
       </div>
       {/* <div className="project-wrapper">
