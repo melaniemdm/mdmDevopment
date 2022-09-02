@@ -4,7 +4,7 @@ export const mesPrestations=[
     coutPrestation: '250€',
     modeFacturation:'/day',
     titlePrestation:'Création de votre site vitrine "simple"',
-    detailPrestation:'Developpement de votre site vitrine ou Developpement landing page'
+    detailPrestation:'Développement de votre site vitrine ou Développement de landing pages'
   },
   {
     namePrestation:'Production de maquettes',
@@ -18,14 +18,14 @@ export const mesPrestations=[
     coutPrestation: '',
     modeFacturation:'sur devis ',
     titlePrestation:'Rassurer vos clients et vos prospects',
-    detailPrestation:'Création de votre site vitrine, Conseils, Maquettes, Dévelopement'
+    detailPrestation:'Création de votre site vitrine, Conseils, Maquettes, Développement'
   },
   {
     namePrestation:'Evolution d\'un site existant',
     coutPrestation: '',
     modeFacturation:'sur devis ',
     titlePrestationy:'Présenter votre activité',
-    detailPrestation:'Conseils, Maquettes, Dévelopement, Evolution '
+    detailPrestation:'Conseils, Maquettes, Développement, Evolution '
   },
   
   
