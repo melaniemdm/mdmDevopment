@@ -2,11 +2,21 @@ import './style.scss';
 
 import Navigate from '../../components/Navigate';
 
+const root = document.querySelector(':root');
+const sun = 'https://www.uplooder.net/img/image/55/7aa9993fc291bc170abea048589896cf/sun.svg';
+const moon = 'https://www.uplooder.net/img/image/2/addf703a24a12d030968858e0879b11e/moon.svg';
+let themeIcon;
+let container;
+let theme = 'dark';
+
+
 function Header() {
+  document.body.style='background-color: var(--bs-dark);transition: 0.5s;';
+ 
   return (
     <header id="accueil">
 
-      <div className="theme-container shadow-dark">
+      <div className="theme-container shadow-dark" onClick={setTheme}>
         <img
           id="theme-icon"
           src="https://www.uplooder.net/img/image/2/addf703a24a12d030968858e0879b11e/moon.svg"
@@ -29,16 +39,9 @@ export default Header;
 
 
 
-document.body.style='background-color: var(--bs-dark);transition: 0.5s;';
-const sun = 'https://www.uplooder.net/img/image/55/7aa9993fc291bc170abea048589896cf/sun.svg';
-const moon = 'https://www.uplooder.net/img/image/2/addf703a24a12d030968858e0879b11e/moon.svg';
-
-let theme = 'dark';
-const root = document.querySelector(':root');
-const container = document.getElementsByClassName('theme-container')[0];
-const themeIcon = document.getElementById('theme-icon');
-container.addEventListener('click', setTheme);
 function setTheme() {
+  themeIcon = document.querySelector('#theme-icon');
+  container = document.querySelector('.theme-container');
   switch (theme) {
     case 'dark':
       setLight();
