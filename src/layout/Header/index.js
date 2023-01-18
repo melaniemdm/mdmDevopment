@@ -2,11 +2,12 @@ import './style.scss';
 
 import Navigate from '../../components/Navigate';
 
-const root = document.querySelector(':root');
+//const root = document.querySelector(':root');
 const sun = 'https://www.uplooder.net/img/image/55/7aa9993fc291bc170abea048589896cf/sun.svg';
 const moon = 'https://www.uplooder.net/img/image/2/addf703a24a12d030968858e0879b11e/moon.svg';
 let themeIcon;
 let container;
+let html;
 let theme = 'dark';
 
 
@@ -42,6 +43,7 @@ export default Header;
 function setTheme() {
   themeIcon = document.querySelector('#theme-icon');
   container = document.querySelector('.theme-container');
+  html = document.querySelector('html');
   switch (theme) {
     case 'dark':
       setLight();
@@ -54,23 +56,24 @@ function setTheme() {
   }
 }
 function setLight() {
-  root.style.setProperty(
-    '--bs-dark',
-    'linear-gradient(318.32deg, #c3d1e4 0%, #dde7f3 55%, #d4e0ed 100%)'
-  );
+ 
   container.classList.remove('shadow-dark');
+  html.classList.remove('dark');
   setTimeout(() => {
     container.classList.add('shadow-light');
+    html.classList.add('light');
     themeIcon.classList.remove('change');
   }, 300);
   themeIcon.classList.add('change');
   themeIcon.src = sun;
 }
 function setDark() {
-  root.style.setProperty('--bs-dark', '#212529');
+  //root.style.setProperty('--bs-dark', '#212529');
   container.classList.remove('shadow-light');
+  html.classList.remove('light');
   setTimeout(() => {
     container.classList.add('shadow-dark');
+    html.classList.add('dark');
     themeIcon.classList.remove('change');
   }, 300);
   themeIcon.classList.add('change');
