@@ -9,9 +9,16 @@ export const mesPrestations=[
   {
     namePrestation:'Production de maquettes',
     coutPrestation: '150€',
-    modeFacturation:'la maquette',
+    modeFacturation:'/day ',
     titlePrestation:'Elargir votre base de clientèle',
-    detailPrestation:'Pour avoir une meilleure idée de votre futur site.'
+    detailPrestation:'Pour avoir une meilleure idée de ce que vous desirez communiquer.'
+  },
+  {
+    namePrestation:'Production de flyers',
+    coutPrestation: '150€',
+    modeFacturation:'/day ',
+    titlePrestation:'Elargir votre base de clientèle',
+    detailPrestation:'Pour avoir une meilleure communication sur les reseaux sociaux'
   },
   {
     namePrestation:'Projet complet',
