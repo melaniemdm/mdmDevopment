@@ -6,14 +6,14 @@
 }
 
 .containerWhyCard {
-    display: flex;
+  display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
 }
 
 .containerWhyCard .card {
-   cursor: pointer;
+  cursor: pointer;
 }
 
 .containerWhyCard .card .face {
@@ -49,7 +49,6 @@
 .containerWhyCard .card .face.face1 .content h3 {
   margin: 10px 0 0;
   padding: 0;
-  color: $colorWhite;
   text-align: center;
   align-items: center;
   font-size: 1.5em;
@@ -57,7 +56,6 @@
 
 .containerWhyCard .card .face.face2 {
   position: relative;
-  background: $colorWhite;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -80,8 +78,32 @@
   text-decoration: none;
   font-weight: 900;
   padding: 5px;
- }
+}
 
-.containerWhyCard .card .face.face2 .content a:hover {
-   color: $colorWhite;
+html.dark {
+  .containerWhyCard .card .face.face1 .content h3 {
+    color: White;
+  }
+  .containerWhyCard .card .face.face2 {
+    background: White;
+  }
+
+  .containerWhyCard .card .face.face2 .content a:hover {
+    color: White;
+  }
+}
+
+html.light {
+  .containerWhyCard .card .face.face1 .content h3 {
+    color: black;
+  }
+  .containerWhyCard .card .face.face2 {
+    background: black;
+  }
+.content{
+  color: white;
+}
+  .containerWhyCard .card .face.face2 .content a:hover {
+    color: black;
+  }
 }
