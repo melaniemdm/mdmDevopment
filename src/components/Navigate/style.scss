@@ -1,9 +1,6 @@
 @import '../../style/communs.scss';
-// nav{
-//     outline: 1px solid red;
-// }
+
 div.containerNav a {
-    color: white;
     text-decoration: none;
     font-size: 20px ;
     margin: 0px 10px;
@@ -47,3 +44,24 @@ div.topBotomBordersOut a:hover:after {
       display: flex;
       flex-direction: column;
     }}
+
+    //theme
+html.dark{
+div.containerNav a {
+    color: white;}
+div.topBotomBordersOut a:before,
+div.topBotomBordersOut a:after {
+  background: #d4e6ed;
+  box-shadow: 8px 6px 4px #d4e6ed;
+}
+}    
+html.light{
+div.containerNav a {
+  color: black;}
+
+div.topBotomBordersOut a:before,
+div.topBotomBordersOut a:after {
+  background: black;
+  box-shadow: 8px 6px 4px black;
+}
+}    
