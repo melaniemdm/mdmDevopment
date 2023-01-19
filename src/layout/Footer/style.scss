@@ -10,7 +10,6 @@ footer {
 }
 
 .containerLogoFooter img {
-  border: 1px solid white;
   border-radius: 10px;
   margin-top: 50px;
   height:160px;
@@ -26,7 +25,6 @@ div.containerNavFooter {
 }
 
 div.containerNavFooter a {
-  color: #fff;
   text-decoration: none;
   margin: 0px 10px;
   padding: 10px 10px;
@@ -43,7 +41,6 @@ div.borderYtoX a:after {
   height: 100%;
   width: 2px;
   content: "";
-  background: #fff;
   transition: all 0.3s;
 }
 
@@ -78,4 +75,25 @@ div.borderYtoX a:hover:after {
   .container a {
     font-size: 8px;
   }
+}
+
+html.dark{
+  .containerLogoFooter img {
+    border: 1px solid white;}
+
+    div.containerNavFooter a {
+      color: #fff;}
+      div.borderYtoX a:before,
+      div.borderYtoX a:after {
+        background: #fff;}
+}
+html.light{
+  .containerLogoFooter img {
+    border: 1px solid black;}
+
+    div.containerNavFooter a {
+      color: black;}
+      div.borderYtoX a:before,
+      div.borderYtoX a:after {
+        background: black;}
 }
