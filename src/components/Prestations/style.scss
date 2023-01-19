@@ -6,10 +6,6 @@
   display: flex;
   flex-direction: column;
 }
-.light {
-  border: 1px solid $colorWhite;
-}
-
 .card {
   width: 230px;
   height: 325px;
@@ -21,7 +17,6 @@
 }
 
 .card-container {
-  //width:100%;
   align-items: center;
   display: flex;
   justify-content: space-around;
@@ -33,21 +28,17 @@
   .card {
     transform: rotateY(179deg);
     z-index: 2;
-
     .text-overlay {
       opacity: 0;
       transform-style: preserve-3d;
       z-index: 1;
     }
-
     .purchase-button-container {
-      border: 1px solid $colorWhite;
       opacity: 1;
     }
   }
 }
 .titleh2 {
-  color: $colorWhite;
   font-weight: bold;
   font-size: 18px;
   width: 50%;
@@ -81,7 +72,6 @@
   margin-top: -20px;
 }
 .purchase-button-container {
-  color: $colorWhite;
   position: absolute;
   display: flex;
   justify-content: center;
@@ -113,18 +103,67 @@
   align-items: center;
   text-align: center;
   flex-direction: column;
-  color: $colorWhite;
   font-size: 1rem;
 }
 
 small {
   font-size: 1rem;
   font-weight: 200;
-  color: $colorWhite;
 }
 
 @media #{$medium-down} {
   .titleh2 {
     font-size: 20px;
+  }
+}
+
+//theme
+html.dark {
+  .light {
+    border: 1px solid white;
+  }
+  .card-wrapper:hover {
+    .card {
+      .purchase-button-container {
+        border: 1px solid White;
+      }
+    }
+  }
+  .titleh2 {
+    color: White;
+  }
+  small {
+    color: White;
+  }
+  .details-text {
+    color: White;
+  }
+  .purchase-button-container {
+    color: White;
+  }
+}
+
+html.light {
+  .light {
+    border: 1px solid black;
+  }
+  .card-wrapper:hover {
+    .card {
+      .purchase-button-container {
+        border: 1px solid black;
+      }
+    }
+  }
+  .titleh2 {
+    color: black;
+  }
+  small {
+    color: black;
+  }
+  .details-text {
+    color: black;
+  }
+  .purchase-button-container {
+    color: black;
   }
 }
