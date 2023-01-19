@@ -14,7 +14,7 @@
 
 .containerAccroche,
 .demandedevisTxt {
-  color: white;
+
   font-weight: 900;
   font-style: italic;
   text-align: center;
@@ -32,4 +32,16 @@
  // border-top: none;
 border-bottom: none;
   box-shadow: none;
+}}
+
+//theme
+html.dark{
+  .containerAccroche,
+.demandedevisTxt {
+  color: white;
+}}
+html.light{
+  .containerAccroche,
+.demandedevisTxt {
+  color: black;
 }}

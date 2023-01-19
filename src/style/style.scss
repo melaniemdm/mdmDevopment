@@ -56,14 +56,13 @@ section {
 .theme-container:hover {
   opacity: 0.8;
 }
-
+//icone dark et light
 .shadow-dark {
   
   box-shadow: 17px 17px 23px #1a1d20,
     -17px -17px 23px #282d32, inset 5px 5px 4px #1e2226,
     inset -5px -5px 4px #24282c;
 }
-
 .shadow-light {
     box-shadow: 7px 7px 15px -10px #bbcfda, -4px -4px 13px #ffffff,
     inset 7px 7px 3px rgba(209, 217, 230, 0.35),
@@ -86,7 +85,7 @@ section {
   animation-direction: alternate;
 }
 
-// theme
+// theme html
 html.dark{
   background-color:black;
 }
