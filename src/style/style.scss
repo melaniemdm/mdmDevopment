@@ -14,14 +14,14 @@ body {
   padding: 0px;
 }
 
-.title, .titleWhy {
+.titlePrestations, .titleWhy {
   color: white;
   font-weight: 900;
   font-size: 30px;
   margin-left: 5px;
   padding: 50px;
 }
-section, .sectionWhy {
+.sectionPrestations, .sectionWhy {
   margin-top: 100px;
   padding-bottom: 100px;
   box-shadow: 10px 5px 5px $colorTitle;
@@ -29,7 +29,7 @@ section, .sectionWhy {
 
 @media #{$small-down} {
 
-  section {
+  .sectionPrestations, .sectionWhy {
     box-shadow:  none;
     outline: 1px solid $colorTitle;
   }

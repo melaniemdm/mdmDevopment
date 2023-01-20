@@ -2,44 +2,32 @@ import './style.scss';
 import {mesPrestations} from '../../datas/prestations';
 
 function Prestations() {
-  return (<section>
-    <div className="containerPrestations" id="mesPrestations">
-      <div className="title">Les prestations proposées</div>
-     
-      <div className="card-container">
-        {mesPrestations.map((item,index)=> 
-          <div className="card-wrapper" key={index}>
-            <div className="card light">
-              <div className="text-overlay">
-                <h2 className="titleh2">
-                  {item.namePrestation}
-                </h2>
-              </div>
-              <div className="purchase-button-container titleH2">
-                <h2 className="titleh2Price">{item.namePrestation}</h2>
-                <div className="price">
-                  {item.coutPrestation} <small>{item.modeFacturation}</small>
-                </div>
-                <div className="details-text">
-                  {item.detailPrestation}
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-
-
-        )}
-
-      
+  return <section className="sectionPrestations">   
+    <div className="titlePrestations">Mes prestations</div>
+        
+    {mesPrestations.map((item, index)=><div className="containerCard col-sm-4" key={index}>
+      <div className="cardPrestation text-center">
+        <div className="titlePrestation"> 
+          <i className="fa fa-paper-plane" aria-hidden="true"></i>
+          <h2>{item.namePrestation}</h2>
+        </div>
+        <div className="pricePrestation">
+          <h4><sup>€</sup> {item.coutPrestation}{item.modeFacturation}</h4>
+        </div>
+        <div className="optionPrestation">
+        
+        </div>
+           
       </div>
-     
-
-      
-   
     </div>
-  </section> );
+        
+    )}
+        
+       
+
+    
+  </section>  ;
+
 }
 
 export default Prestations;
