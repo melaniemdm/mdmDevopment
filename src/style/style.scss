@@ -14,14 +14,14 @@ body {
   padding: 0px;
 }
 
-.title {
+.title, .titleWhy {
   color: white;
   font-weight: 900;
   font-size: 30px;
   margin-left: 5px;
   padding: 50px;
 }
-section {
+section, .sectionWhy {
   margin-top: 100px;
   padding-bottom: 100px;
   box-shadow: 10px 5px 5px $colorTitle;
