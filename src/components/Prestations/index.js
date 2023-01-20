@@ -12,10 +12,10 @@ function Prestations() {
           <h2>{item.namePrestation}</h2>
         </div>
         <div className="pricePrestation">
-          <h4><sup>€</sup> {item.coutPrestation}{item.modeFacturation}</h4>
+          <h4>{item.coutPrestation}{item.modeFacturation}</h4>
         </div>
         <div className="optionPrestation">
-        
+          <div><ul><li>{item.detailPrestation}</li></ul></div>  
         </div>
            
       </div>
