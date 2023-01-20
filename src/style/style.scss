@@ -15,7 +15,6 @@ body {
 }
 
 .titlePrestations, .titleWhy {
-  color: white;
   font-weight: 900;
   font-size: 30px;
   margin-left: 5px;
@@ -88,8 +87,12 @@ body {
 // theme html
 html.dark{
   background-color:black;
+  .titlePrestations, .titleWhy {
+    color: white;}
 }
 html.light{
   background-color:white;
+  .titlePrestations, .titleWhy {
+    color: black;}
 }
 
