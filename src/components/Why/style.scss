@@ -74,3 +74,11 @@ display: flex;
 .cardWhy-element{
 padding: 10px;
 }
+
+@media #{$small-down} {
+  .sectionWhy{
+    flex-wrap: wrap;
+    justify-content:center;
+    }
+
+}

@@ -135,3 +135,11 @@ height: 1200px;
 .cardPrestation a:hover {
     text-decoration: none;
 }
+
+@media #{$small-down} {
+    .sectionPrestations{
+       
+    height: auto;
+    } 
+
+}
