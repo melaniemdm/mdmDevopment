@@ -151,4 +151,12 @@ export const listeDesProjets = [
     describe:'Prototype de site internet pour la Fondation Jacques Secrétin ',
     lien: ' https://melaniemdm.github.io/fondation-jacques-secretin/',
   },
+  {
+    id: 'Projet N°20',
+    title: 'SportSee',
+    picture: 'https://res.cloudinary.com/dst61tkcz/image/upload/v1674490512/mdm-devlopment/sportsee_m2s3ov.png',
+    describe:'Cette page va permettre à l’utilisateur de suivre le nombre de sessions réalisées ainsi que le nombre de calories brûlées.',
+    lien: ' https://github.com/melaniemdm/sportSee',
+  },
+
 ];
