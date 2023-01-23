@@ -4,11 +4,14 @@ function presentation(){
   return ( <div className="containerPresentation">
     <div className="portfolio-container">
       <div className="hero">
-        <img src="https://res.cloudinary.com/dst61tkcz/image/upload/v1658828763/mdm-devlopment/me_lytehv.webp" alt="a girl smiling" className="hero--image"/>
+        <img src="https://res.cloudinary.com/dst61tkcz/image/upload/v1674477912/mdm-devlopment/photo-Melanie.jpg_lbtlaz.png" alt="a girl smiling" className="hero--image"/>
         <div className="hero--bio">
-          <h1 className="nameDev">Mélanie MARIANI</h1>
-          <h3>Developpeur java-script React - Front-End</h3>
-          <p className="basic-info">Je suis développeur Front-End en JavaScript-React et je suis passionnée par la création et la modification de sites vitrines. J'ai l'avantage via la freelance de pouvoir travailler dans toute la France afin de réaliser vos projets de sites vitrines.</p>
+          <h1 className="nameDev">Developpeur Java-Jcript React - Front-End</h1>
+          <h3>Bonjour ! <br></br>Je m'apelle Melanie MARIANI,</h3>
+          <div className="basic-info">Je suis specialisée dans le développement de sites web Front-End en JavaScript-React. <br></br>Je suis passionnée par la création, la modification de sites vitrines et par la création de flyers, de maquettes. <br></br>
+          Mes technologies fétiches sont HTML, CSS, JavaScript, React, Redux...<br></br>
+          J'aime travailler sur des projets créatifs et passionnants, et je suis toujours à la recherche de nouveaux défis afin d'améliorer mes compétences.<br></br>
+          </div>
           <nav>
             <Link to="/accueil#contactMe" className="contactMe">Me contacter</Link>
 
