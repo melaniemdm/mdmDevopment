@@ -41,21 +41,10 @@ export const mesPrestations=[
     modeFacturation:'/day ',
     titlePrestationy:'Community manager',
     detailPrestation:[
-      '- Réponse sur les réseaux sociaux aux commentaires',
+      '- Réponse sur les réseaux sociaux aux commentaires',<br key='9'></br>,
       '- Diffusion de vos contenus sur votre page',<br key='9'></br>,
       '- Diffusion de vos contenus sur les groupes que vous suivez', <br key='8'></br>,
     ]
   },
-  {
-    namePrestation:'Réallisation de votre site complet',
-    coutPrestation: '',
-    modeFacturation:'sur devis selon spécificités ',
-    titlePrestation:'Réallisation de votre site complet',
-    detailPrestation:[ '- Réalisation de 3 wireframes',<br key='13'></br>,
-      '- Propositions d\'evolution',<br key='9'></br>,
-      '- Réalisation de 3 maquettes', <br key='8'></br>,
-      '- Conseils toiut au long tu projet', <br key='12'></br>,
-      '- Choix de la maquette finale',<br key='11'></br>,'- Développement de votre site', ]
-  },
-  
+ 
 ];
