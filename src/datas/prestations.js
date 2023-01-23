@@ -1,39 +1,61 @@
 export const mesPrestations=[
   {
-    namePrestation:'Création de votre site vitrine "simple"',
+    namePrestation:'Création de votre site vitrine ',
     coutPrestation: '250€',
     modeFacturation:'/day',
-    titlePrestation:'Création de votre site vitrine "simple"',
-    detailPrestation:'Développement de votre site vitrine ou Développement de landing pages'
+    titlePrestation:'Création de votre site vitrine ',
+    detailPrestation:['- Développement de votre site vitrine', <br key='1'></br>,
+      '- Développement de votre landing pages',]
   },
   {
-    namePrestation:'Production de maquettes',
+    namePrestation:'Réalisation de maquettes',
     coutPrestation: '150€',
     modeFacturation:'/day ',
-    titlePrestation:'Elargir votre base de clientèle',
-    detailPrestation:'Pour avoir une meilleure idée de ce que vous desirez communiquer.'
+    titlePrestation:'Réalisation de 3 maquettes ',
+    detailPrestation:['- Réalisation de 3 wireframes',<br key='2'></br>,
+      '- Réalisation de 3 maquettes', <br key='3'></br>,
+      '- Choix de la maquette finale']
   },
   {
-    namePrestation:'Production de flyers',
+    namePrestation:'Réalisation de votre flyers',
     coutPrestation: '150€',
     modeFacturation:'/day ',
-    titlePrestation:'Elargir votre base de clientèle',
-    detailPrestation:'Pour avoir une meilleure communication sur les reseaux sociaux'
+    titlePrestation:'Réalisation de votre flyer',
+    detailPrestation:['- Réalisation de 3 flyers',<br key='4'></br>,
+      '- Réalisation de votre flyer final',]
   },
   {
-    namePrestation:'Projet complet',
+    namePrestation:'Réallisation de votre site complet',
     coutPrestation: '',
-    modeFacturation:'sur devis ',
-    titlePrestation:'Rassurer vos clients et vos prospects',
-    detailPrestation:'Création de votre site vitrine, Conseils, Maquettes, Développement'
+    modeFacturation:'sur devis selon spécificités ',
+    titlePrestation:'Réallisation de votre site complet',
+    detailPrestation:['- Réalisation de 3 wireframes',<br key='5'></br>,
+      ' - Réalisation de 3 maquettes', <br key='8'></br>,
+      '- Choix de la maquette finale qui deviendra votre site',<br key='6'></br>,
+      '- Développement de votre site vitrine', <br key='7'></br>,
+      '- Développement de votre landing pages',]
   },
   {
-    namePrestation:'Evolution d\'un site existant',
-    coutPrestation: '',
-    modeFacturation:'sur devis ',
-    titlePrestationy:'Présenter votre activité',
-    detailPrestation:'Conseils, Maquettes, Développement, Evolution '
+    namePrestation:'Community manager',
+    coutPrestation: '150€',
+    modeFacturation:'/day ',
+    titlePrestationy:'Community manager',
+    detailPrestation:[
+      '- Réponse sur les réseaux sociaux aux commentaires',
+      '- Diffusion de vos contenus sur votre page',<br key='9'></br>,
+      '- Diffusion de vos contenus sur les groupes que vous suivez', <br key='8'></br>,
+    ]
   },
-  
+  {
+    namePrestation:'Réallisation de votre site complet',
+    coutPrestation: '',
+    modeFacturation:'sur devis selon spécificités ',
+    titlePrestation:'Réallisation de votre site complet',
+    detailPrestation:[ '- Réalisation de 3 wireframes',<br key='13'></br>,
+      '- Propositions d\'evolution',<br key='9'></br>,
+      '- Réalisation de 3 maquettes', <br key='8'></br>,
+      '- Conseils toiut au long tu projet', <br key='12'></br>,
+      '- Choix de la maquette finale',<br key='11'></br>,'- Développement de votre site', ]
+  },
   
 ];

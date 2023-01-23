@@ -9,7 +9,7 @@ function Prestations() {
       <div className="cardPrestation text-center">
         <div className="titlePrestation"> 
           <i className="fa fa-paper-plane" aria-hidden="true"></i>
-          <h2>{item.namePrestation}</h2>
+          <h3>{item.namePrestation}</h3>
         </div>
         <div className="pricePrestation">
           <h4>{item.coutPrestation}{item.modeFacturation}</h4>
