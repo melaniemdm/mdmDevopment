@@ -22,14 +22,21 @@ function presentation(){
         <h2 className="sousTitle"> Création de votre site en quelques étapes</h2>
 
         <ul>
-          <li>_ Echanges sur vos besoins, attentes, envies,</li>
-          <li>_ Choix de votre nom de domaine,</li>
-          <li>_ Vérification si votre nom de domaine existe ou non puis achat de celui-ci,</li>
-          <li>_ Choix de l'hebergeur en fonction de vos besoins (gratuit ou payant),</li>
+          <li><strong>Défininition des objectifs de votre site :</strong> </li>
+          <li>_ Echanges sur vos besoins, vos attentes, vos envies,</li>
+          <li>_ Création du wireframe de votre futur site,</li>
           <li>_ Création de la maquette de votre futur site ou du premier prototype,</li>
+          <li><strong>Planification et conception:</strong></li>
+          <li>_ Choix des couleurs, de la police, des images...,</li>
+          <li>_ Défininition du contenu,</li>
+          <li><strong>Développement de votre futur site:</strong></li> 
           <li>_ Points réguliers sur l'avancement de votre projet,</li>
-          <li>_ Une fois la structure de votre site réalisée et definitive, intégration de vos contenus,</li>
-          <li>_ Mise en ligne de votre nouveau site internet.</li>
+          <li>_ Intégration de vos contenus,</li>
+          <li><strong>Mise en ligne:</strong> </li>
+          <li>_ Choix de l'hebergeur.</li>
+          <li>_ Configuration du nom de domaine.</li>
+          <li><strong>Miantenance:</strong> </li>
+          <li>_ Miantenance et évolution.</li>
         </ul>
 
         <h2 className="sousTitle"> Informations supplémentaires</h2>
