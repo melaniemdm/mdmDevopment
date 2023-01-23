@@ -3,7 +3,7 @@ import {why} from '../../datas/why';
 
 function WhyWebsite(){
   
-  return( <section className="sectionWhy">
+  return( <section className="sectionWhy" id="why">
     <div className="titleWhy" > Pourquoi un site vitrine?</div>
 
     {why.map((item, index)=>   <div className="cardWhy-basic" key={index}>
