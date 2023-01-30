@@ -4,7 +4,7 @@ import './style.scss';
 function Navigate() {
   return (
     <nav>
-      <div className="containerNav topBotomBordersOut">
+      <div className="containerNav container teal borderYtoX">
         <Link to="/accueil">Home</Link> 
         <Link to="/accueil#why">Pourquoi un site vitrine? </Link>
      
