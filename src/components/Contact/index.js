@@ -3,10 +3,11 @@ import './style.scss';
 function Contact(){
   return(
     <section id="contactMe">  
-      <div className="containerContact" >
+    
+      <div className="containerContact" >Me contacter
  
         <div className="containerForm">
-          <h1>Formulaire de contact</h1>
+          {/* <h1>Formulaire de contact</h1> */}
  
           <iframe
             src="https://tally.so/embed/npbr9y?alignLeft=1&hideTitle=1&transparentBackground=1"

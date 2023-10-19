@@ -27,24 +27,25 @@ export const mesPrestations=[
   {
     namePrestation:'Réallisation de votre site complet',
     coutPrestation: '',
-    modeFacturation:'sur devis selon spécificités ',
+    modeFacturation:'sur devis*  ',
     titlePrestation:'Réallisation de votre site complet',
     detailPrestation:['- Réalisation de 3 wireframes',<br key='5'></br>,
       ' - Réalisation de 3 maquettes', <br key='8'></br>,
       '- Choix de la maquette finale qui deviendra votre site',<br key='6'></br>,
       '- Développement de votre site vitrine', <br key='7'></br>,
-      '- Développement de votre landing pages',]
+      '- Développement de votre landing pages', <br key='5'></br>,
+      '* Selon spécificités',]
   },
-  {
-    namePrestation:'Community manager',
-    coutPrestation: '150€',
-    modeFacturation:'/day ',
-    titlePrestationy:'Community manager',
-    detailPrestation:[
-      '- Réponse sur les réseaux sociaux aux commentaires',<br key='9'></br>,
-      '- Diffusion de vos contenus sur votre page',<br key='9'></br>,
-      '- Diffusion de vos contenus sur les groupes que vous suivez', <br key='8'></br>,
-    ]
-  },
+  // {
+  //   namePrestation:'Community manager',
+  //   coutPrestation: '150€',
+  //   modeFacturation:'/day ',
+  //   titlePrestationy:'Community manager',
+  //   detailPrestation:[
+  //     '- Réponse sur les réseaux sociaux aux commentaires',<br key='9'></br>,
+  //     '- Diffusion de vos contenus sur votre page',<br key='9'></br>,
+  //     '- Diffusion de vos contenus sur les groupes que vous suivez', <br key='8'></br>,
+  //   ]
+  // },
  
 ];
