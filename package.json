@@ -1,7 +1,7 @@
 {
   "name": "mdm_development",
   "version": "0.1.0",
-  "homepage": "https://melaniemdm.github.io/mdm_development",
+  "homepage": "https://www.mdm-development.fr",
   "private": true,
   "dependencies": {
     "@babel/core": ">=7.0.0-0 <8.0.0",

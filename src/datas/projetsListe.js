@@ -2,7 +2,13 @@ export const listeDesProjets = [
 
 
 
-
+  {
+    id: 'Projet N°22',
+    title: 'Event Ease',
+    picture: 'https://res.cloudinary.com/dtqlngqss/image/upload/v1697699471/eventease2023.png',
+    describe:'Développement d\'une application pour faciliter la gestion du planning en ligne des bénévoles et optimiser leur travail au quotidien.',
+    lien: ' https://github.com/melaniemdm/eventEase',
+  },
  
   {
     id: 'Projet N°21',
